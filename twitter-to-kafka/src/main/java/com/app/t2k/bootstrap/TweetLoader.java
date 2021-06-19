@@ -1,6 +1,7 @@
 package com.app.t2k.bootstrap;
 
 import com.app.t2k.config.TwitterToKafkaConfig;
+import com.app.t2k.runner.StreamRunner;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
@@ -17,10 +18,12 @@ import java.util.Arrays;
 @RequiredArgsConstructor
 public class TweetLoader implements CommandLineRunner {
     private final TwitterToKafkaConfig twitterToKafkaConfig;
+    private final StreamRunner streamRunner;
 
     @Override
     public void run(String... args) throws Exception {
         log.info("Application starts");
         log.info(Arrays.toString(twitterToKafkaConfig.getTwitterKeywords().toArray(new String[]{})));
+        streamRunner.start();
     }
 }
