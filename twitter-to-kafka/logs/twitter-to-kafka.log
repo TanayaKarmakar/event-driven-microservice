@@ -1,0 +1,5 @@
+2021-06-19 21:40:28 [main] INFO  c.app.t2k.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.11 on Tanayas-MacBook-Pro.local with PID 74258 (/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes started by t0k02w6 in /Users/t0k02w6/Documents/personal/Java/event-driven-microservice)
+2021-06-19 21:40:28 [main] INFO  c.app.t2k.TwitterToKafkaApplication - No active profile set, falling back to default profiles: default
+2021-06-19 21:40:28 [main] INFO  c.app.t2k.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.489 seconds (JVM running for 1.219)
+2021-06-19 21:40:28 [main] INFO  com.app.t2k.bootstrap.TweetLoader - Application starts
+2021-06-19 21:40:28 [main] INFO  com.app.t2k.bootstrap.TweetLoader - [Java, Microservices, Spring, Kafka, ElasticSearch]
