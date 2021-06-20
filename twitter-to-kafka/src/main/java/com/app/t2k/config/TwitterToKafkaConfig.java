@@ -1,6 +1,7 @@
 package com.app.t2k.config;
 
 import lombok.Data;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
 
@@ -15,4 +16,10 @@ import java.util.List;
 @ConfigurationProperties(prefix = "twitter-to-kafka")
 public class TwitterToKafkaConfig {
     private List<String> twitterKeywords;
+
+    private Boolean enableMockTweets;
+    private Long mockSleepMs;
+    private Integer mockMinTweetLength;
+    private Integer mockMaxTweetLength;
+
 }
