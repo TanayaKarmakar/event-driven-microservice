@@ -86,3 +86,62 @@ Consider defining a bean of type 'com.app.t2k.config.TwitterToKafkaConfig' in yo
 2021-06-20 21:16:02 [main] INFO  c.a.t.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.11 on Tanayas-MacBook-Pro.local with PID 96446 (/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes started by t0k02w6 in /Users/t0k02w6/Documents/personal/Java/event-driven-microservice)
 2021-06-20 21:16:02 [main] INFO  c.a.t.s.TwitterToKafkaApplication - No active profile set, falling back to default profiles: default
 2021-06-20 21:16:02 [main] INFO  c.a.t.s.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.823 seconds (JVM running for 1.909)
+2021-06-20 21:18:33 [main] INFO  c.a.t.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.11 on Tanayas-MacBook-Pro.local with PID 99519 (/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes started by t0k02w6 in /Users/t0k02w6/Documents/personal/Java/event-driven-microservice)
+2021-06-20 21:18:33 [main] INFO  c.a.t.s.TwitterToKafkaApplication - No active profile set, falling back to default profiles: default
+2021-06-20 21:18:33 [main] INFO  c.a.t.s.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.567 seconds (JVM running for 1.374)
+2021-06-20 21:18:59 [main] INFO  c.a.t.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.11 on Tanayas-MacBook-Pro.local with PID 742 (/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes started by t0k02w6 in /Users/t0k02w6/Documents/personal/Java/event-driven-microservice)
+2021-06-20 21:18:59 [main] INFO  c.a.t.s.TwitterToKafkaApplication - No active profile set, falling back to default profiles: default
+2021-06-20 21:18:59 [main] INFO  c.a.t.s.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.512 seconds (JVM running for 1.002)
+2021-06-20 21:19:51 [main] INFO  c.a.t.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.11 on Tanayas-MacBook-Pro.local with PID 4100 (/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes started by t0k02w6 in /Users/t0k02w6/Documents/personal/Java/event-driven-microservice)
+2021-06-20 21:19:51 [main] INFO  c.a.t.s.TwitterToKafkaApplication - No active profile set, falling back to default profiles: default
+2021-06-20 21:19:51 [main] INFO  c.a.t.s.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.535 seconds (JVM running for 1.045)
+2021-06-20 21:20:13 [main] INFO  c.a.t.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.11 on Tanayas-MacBook-Pro.local with PID 4370 (/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes started by t0k02w6 in /Users/t0k02w6/Documents/personal/Java/event-driven-microservice)
+2021-06-20 21:20:13 [main] INFO  c.a.t.s.TwitterToKafkaApplication - No active profile set, falling back to default profiles: default
+2021-06-20 21:20:14 [main] INFO  c.a.t.s.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.508 seconds (JVM running for 0.985)
+2021-06-20 21:20:27 [main] INFO  c.a.t.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.11 on Tanayas-MacBook-Pro.local with PID 5188 (/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes started by t0k02w6 in /Users/t0k02w6/Documents/personal/Java/event-driven-microservice)
+2021-06-20 21:20:27 [main] INFO  c.a.t.s.TwitterToKafkaApplication - No active profile set, falling back to default profiles: default
+2021-06-20 21:20:27 [main] INFO  c.a.t.s.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.537 seconds (JVM running for 1.05)
+2021-06-20 21:48:21 [main] INFO  c.app.t2k.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.11 on Tanayas-MacBook-Pro.local with PID 12898 (/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes started by t0k02w6 in /Users/t0k02w6/Documents/personal/Java/event-driven-microservice)
+2021-06-20 21:48:21 [main] INFO  c.app.t2k.TwitterToKafkaApplication - No active profile set, falling back to default profiles: default
+2021-06-20 21:48:21 [main] INFO  c.app.t2k.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.587 seconds (JVM running for 1.352)
+2021-06-20 21:48:21 [main] INFO  c.a.t.service.bootstrap.TweetLoader - Application starts
+2021-06-20 21:48:21 [main] INFO  c.a.t.service.bootstrap.TweetLoader - [Java, Microservices, Spring, Kafka, ElasticSearch]
+2021-06-20 21:48:21 [main] INFO  c.a.t.s.r.impl.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords: [Java, Microservices, Spring, Kafka, ElasticSearch]
+2021-06-20 21:48:22 [pool-1-thread-1] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: Lorem adipiscing adipiscing amet porttitor consectetuer ipsum Microservices Lorem adipiscing lectus libero pulvinar pulvinar
+2021-06-20 21:48:32 [pool-1-thread-1] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: magna malesuada lectus ElasticSearch malesuada sit
+2021-06-20 21:49:06 [main] INFO  c.app.t2k.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.11 on Tanayas-MacBook-Pro.local with PID 12931 (/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes started by t0k02w6 in /Users/t0k02w6/Documents/personal/Java/event-driven-microservice)
+2021-06-20 21:49:06 [main] INFO  c.app.t2k.TwitterToKafkaApplication - No active profile set, falling back to default profiles: default
+2021-06-20 21:49:06 [main] INFO  c.app.t2k.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.544 seconds (JVM running for 1.053)
+2021-06-20 21:49:06 [main] INFO  c.a.t.service.bootstrap.TweetLoader - Application starts
+2021-06-20 21:49:06 [main] INFO  c.a.t.service.bootstrap.TweetLoader - [Java, Microservices, Spring, Kafka, ElasticSearch]
+2021-06-20 21:49:06 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2021-06-20 21:49:06 [main] INFO  c.a.t.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords: [Java, Microservices, Spring, Kafka, ElasticSearch]
+2021-06-20 21:49:08 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2021-06-20 21:49:08 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+2021-06-20 21:49:08 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: @intelnews https://t.co/NTHHsnNlKe
+2021-06-20 21:49:08 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: Shaping the texts “CRPH” and “SPRING REVOLUTION”, anti coup night protest with candlelights vigil, also in support of @CrphMyanmar was held by the residents in Taze. #WhatsHappeningInMyanmar #June20Coup https://t.co/nKJrs58zzW
+2021-06-20 21:49:08 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @2021Revtweets: Monks prayed for all the troubles the people of Burma are facing and the martyrs who fell in the Spring Revolution.
+#Wha…
+2021-06-20 21:49:09 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: Understand CNN Basics with #Keras Example in #Python Code. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode
+https://t.co/VSaxjvgPXn https://t.co/6yCzCaknFN
+2021-06-20 21:49:09 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: Anti-coup night strike by creating "Spring Strike, CRPH" with Candlelight in Taze Tsp.  #June20Coup #WhatsHappeningInMyanmar https://t.co/UPPs2wugtM
+2021-06-20 21:49:09 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: A M3.3 earthquake has been reported by the BMKG for Java, Indonesia. Link: https://t.co/uvJVkmI6cM
+2021-06-20 21:49:09 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @Barackhalogen_: Which programming language did you write first❓❓
+
+👉 Retweet to share information🌐
+#FullStack #python3 #datatype #progra…
+2021-06-20 21:49:09 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: Anti-coup night strike by creating "Spring Strike, CRPH" with Candlelight in Taze Tsp.  #June20Coup #WhatsHappeningInMyanmar https://t.co/QSt57962lv
+2021-06-20 21:49:10 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @12FightFuture21: Shaping the texts “CRPH” and “SPRING REVOLUTION”, anti coup night protest with candlelights vigil, also in support of…
+2021-06-20 21:49:10 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @KisiAtama: En sevdiğim kitap Haruki Murakami'nin Sahilde Kafka kitabı. 
+
+#CBÖğretmenSiziBekliyor
+2021-06-20 21:49:10 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @ptn1230: A "poppy flower campaign" is being held to pay tribute to the martyrs who fell during the Spring Revolution and the brutality…
+2021-06-20 21:49:10 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: Along ArZarNi road, Monywa main strike of the Spring Revolution was held today to get rid of the dictators, despite military junta barriers and brutal crackdown.   #WhatsHappeningInMyanmar #June20Coup https://t.co/DiOJF2KzR3
+2021-06-20 21:49:10 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: Anti-coup night strike by creating the text, "Spring Strike, CRPH" with Candlelight in #Taze Tsp. 
+#June20Coup
+#WhatsHappeningInMyanmar https://t.co/PNJ4cFWFbH
+2021-06-20 21:49:10 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: Shaping the texts “CRPH” and “SPRING REVOLUTION”, anti coup night protest with candlelights vigil, also in support of @CrphMyanmar was held by the residents in Taze. #WhatsHappeningInMyanmar #June20Coup https://t.co/DNqJ664zIx
+2021-06-20 21:49:11 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: TW weight//
+
+All my progress from last winter/spring is gone, I've been eating more cuz of stress and I've become too lazy when it comes to daily sport. I've gone from 58 kg back to 64 kg and I don't like feeling unfit
+2021-06-20 21:49:12 [SpringApplicationShutdownHook] INFO  c.a.t.s.r.i.TwitterKafkaStreamRunner - Closing twitter stream

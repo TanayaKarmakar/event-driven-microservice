@@ -1,4 +1,4 @@
-//package com.app.t2k.service;
+//package com.app.t2k;
 //
 //import org.junit.jupiter.api.Test;
 //import org.springframework.boot.test.context.SpringBootTest;

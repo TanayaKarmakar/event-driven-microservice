@@ -3,11 +3,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.app.t2k</groupId>
+        <groupId>com.app</groupId>
         <artifactId>event-driven-microservice</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <groupId>com.app.t2k</groupId>
     <artifactId>twitter-to-kafka</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>twitter-to-kafka</name>
@@ -16,14 +15,20 @@
         <java.version>11</java.version>
     </properties>
     <dependencies>
-        <dependency>
-            <groupId>com.app.t2k</groupId>
-            <artifactId>twitter-to-kafka-common-conifg</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.app.t2k</groupId>-->
+<!--            <artifactId>twitter-to-kafka-common-conifg</artifactId>-->
+<!--            <version>0.0.1-SNAPSHOT</version>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.twitter4j</groupId>
             <artifactId>twitter4j-stream</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.app</groupId>
+            <artifactId>twitter-to-kafka-common-conifg</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
