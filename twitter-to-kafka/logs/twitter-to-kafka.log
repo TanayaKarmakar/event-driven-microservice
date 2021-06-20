@@ -1,123 +1,88 @@
-2021-06-19 21:40:28 [main] INFO  c.app.t2k.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.11 on Tanayas-MacBook-Pro.local with PID 74258 (/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes started by t0k02w6 in /Users/t0k02w6/Documents/personal/Java/event-driven-microservice)
-2021-06-19 21:40:28 [main] INFO  c.app.t2k.TwitterToKafkaApplication - No active profile set, falling back to default profiles: default
-2021-06-19 21:40:28 [main] INFO  c.app.t2k.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.489 seconds (JVM running for 1.219)
-2021-06-19 21:40:28 [main] INFO  com.app.t2k.bootstrap.TweetLoader - Application starts
-2021-06-19 21:40:28 [main] INFO  com.app.t2k.bootstrap.TweetLoader - [Java, Microservices, Spring, Kafka, ElasticSearch]
-2021-06-19 22:19:20 [main] INFO  c.app.t2k.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.11 on Tanayas-MacBook-Pro.local with PID 8065 (/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes started by t0k02w6 in /Users/t0k02w6/Documents/personal/Java/event-driven-microservice)
-2021-06-19 22:19:20 [main] INFO  c.app.t2k.TwitterToKafkaApplication - No active profile set, falling back to default profiles: default
-2021-06-19 22:19:20 [main] INFO  c.app.t2k.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.593 seconds (JVM running for 1.476)
-2021-06-19 22:19:20 [main] INFO  com.app.t2k.bootstrap.TweetLoader - Application starts
-2021-06-19 22:19:20 [main] INFO  com.app.t2k.bootstrap.TweetLoader - [Java, Microservices, Spring, Kafka, ElasticSearch]
-2021-06-19 22:19:20 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
-2021-06-19 22:19:20 [main] INFO  c.a.t.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords: [Java, Microservices, Spring, Kafka, ElasticSearch]
-2021-06-19 22:19:22 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
-2021-06-19 22:19:22 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
-2021-06-19 22:19:22 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @kohei1975_tw: A poem written by the Tang Dynasty poet, Jia Zhi.
-It expresses the melancholy of spring through the beauty of the flowers…
-2021-06-19 22:19:23 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @WajdiAlkayal: React Native Developer
-#react #javascript #php #java #reactjs #html #css #developer #ui #workinghours #python #experience…
-2021-06-19 22:19:25 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @AndrewHopkinso5: Roses in full bloom
-#gardening #flowers #Spring #gardenersworld #GardensHour https://t.co/jTeOoJdGNT
-2021-06-19 22:19:27 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @AlkayalWajdi: React Native Developer
-#react #javascript #php #java #reactjs #html #css #developer #ui #workinghours #python #experience…
-2021-06-19 22:19:27 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @XiaoyaoPhoto: 春节假期就是吃喝睡……The Spring Festival holiday is to eat, drink and sleep... https://t.co/jkktVpmQ3F
-2021-06-19 22:19:28 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @ffilomino: BTS es el grupo con más canciones que sobrepasan los 100M y 200M en spotify y si queremos el récord de 300M (15 canciones) v…
-2021-06-19 22:19:28 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @diorangxl: Fendi Spring 2022 Menswear https://t.co/pXrLTUQ64q
-2021-06-19 22:19:30 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: Crescent Moon, coast is clear
-spring breaks loose, but so does fear
-2021-06-19 22:19:30 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @Wajdialkayal1: React Native Developer
-#react #javascript #php #java #reactjs #html #css #developer #ui #workinghours #python #experienc…
-2021-06-19 22:19:30 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: Buddhist Monks in Myanmar sent prayers for the immediate restoration of democracy and for the fallen heroes of Spring Revolution as they held three fingers, this evening.  
+2021-06-20 19:41:10 [main] INFO  c.app.t2k.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.11 on Tanayas-MacBook-Pro.local with PID 84342 (/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes started by t0k02w6 in /Users/t0k02w6/Documents/personal/Java/event-driven-microservice)
+2021-06-20 19:41:10 [main] INFO  c.app.t2k.TwitterToKafkaApplication - No active profile set, falling back to default profiles: default
+2021-06-20 19:41:11 [main] INFO  c.app.t2k.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.795 seconds (JVM running for 1.695)
+2021-06-20 19:41:11 [main] INFO  TweetLoader - Application starts
+2021-06-20 19:41:11 [main] INFO  TweetLoader - [Java, Microservices, Spring, Kafka, ElasticSearch]
+2021-06-20 19:41:11 [main] INFO  c.a.t.r.impl.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords: [Java, Microservices, Spring, Kafka, ElasticSearch]
+2021-06-20 19:41:11 [pool-1-thread-1] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: purus purus amet elit Fusce pulvinar Spring ulticies purus elit porttitor malesuada
+2021-06-20 19:41:21 [pool-1-thread-1] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: porttitor massa massa sed purus massa ulticies Kafka purus pulvinar amet ipsum conque Maecenas
+2021-06-20 19:41:33 [main] INFO  c.app.t2k.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.11 on Tanayas-MacBook-Pro.local with PID 84416 (/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes started by t0k02w6 in /Users/t0k02w6/Documents/personal/Java/event-driven-microservice)
+2021-06-20 19:41:33 [main] INFO  c.app.t2k.TwitterToKafkaApplication - No active profile set, falling back to default profiles: default
+2021-06-20 19:41:34 [main] INFO  c.app.t2k.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.534 seconds (JVM running for 1.246)
+2021-06-20 19:41:34 [main] INFO  TweetLoader - Application starts
+2021-06-20 19:41:34 [main] INFO  TweetLoader - [Java, Microservices, Spring, Kafka, ElasticSearch]
+2021-06-20 19:41:34 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2021-06-20 19:41:34 [main] INFO  c.a.t.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords: [Java, Microservices, Spring, Kafka, ElasticSearch]
+2021-06-20 19:41:36 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2021-06-20 19:41:36 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+2021-06-20 19:41:36 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: On June 19, the Burmese people in South Korea celebrated the 76th birthday of Daw Aung San Suu Kyi and prayed for the release of political prisoners.
+#WhatsHappeningInMyanmar 
+#June20Coup 
+#MilkTeaAlliance https://t.co/D9dl7BW3DZ
+2021-06-20 19:41:36 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @Kiran36777199: It's a beautiful shoot, lovely video 👍
+2021-06-20 19:41:37 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @judyannewolff: A pot of spring flowers in our local park 🌿🌾🌹🙏 
 
-FREEDOM FROM FEAR  #76FlowerStrike #June19Coup #WhatsHappeningInMyanmar https://t.co/67QYkzScVl
-2021-06-19 22:19:32 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: we should delay till next spring.
-2021-06-19 22:19:33 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @fakeloveOT7bts: °•.💛
-Canciones y sus n° d premios en Shows Musicales d 🇰🇷
+https://t.co/3jUvNOzrpT ❤️ https://t.co/yxPdr04GLX
+2021-06-20 19:41:38 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: @BGroothedde never really got into flash/actionscript but did a lot of Java coding during my CS studies
+2021-06-20 19:41:39 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: @Intaelligentme Make it right sweet night still with u winter bear spring day
+2021-06-20 19:41:39 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: We Must Win ✊
 
-🌟I NEED U ☞5
-🌟RUN ☞5
-🌟FIRE ☞3
-🌟BST ☞6
-🌟SPRING DAY ☞4
-🌟DNA ☞1…
-2021-06-19 22:19:33 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @josetorija_2: @DalaiLama “Out of a pure heart shall gladness spring forth to the #Infinite; all my being shall be at #peace with this s…
-2021-06-19 22:19:34 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @nina114kry: ✊🏻✊🏻🚪
+#WhatsHappeningInMyanmar
+#June20Coup #MilkTeaAlliance https://t.co/8evsJuPJXf
+2021-06-20 19:41:39 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: We will protest against Military Dictatorship with every possible way we can until we win.
+#WhatsHappeningInMyanmar 
+#June20Coup https://t.co/aqVTfxEI5L
+2021-06-20 19:41:40 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @isyvaine: วันพ่อทั้งทีก็ต้องคนนี้เร้ย~ ว่าแต่ มุกตลกป๊าไม่โอเคตรงไหนนะเจ้าน้ำค้าง 🤣🤣🤣 
+[ᶜᴿ. https://t.co/OaqejsjQQR] https://t.co/ZfloG…
+2021-06-20 19:41:41 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @YeThanLwin11: Along ArZarNi road, Monywa main strike of the Spring Revolution was held today to get rid of the dictators, despite milit…
+2021-06-20 19:41:41 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @ElleMenThailand: ส่งท้ายกันก่อนเริ่มโชว์! กับลุคของหนุ่มแบมแบม @BamBam1A ที่มาเชิญชวนทุกคนไปร่วมชมแฟชั่นโชว์ Prada Spring/Summer 2022 เ…
+2021-06-20 19:41:41 [SpringApplicationShutdownHook] INFO  c.a.t.r.i.TwitterKafkaStreamRunner - Closing twitter stream
+2021-06-20 20:09:36 [main] INFO  c.app.t2k.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.11 on Tanayas-MacBook-Pro.local with PID 57544 (/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes started by t0k02w6 in /Users/t0k02w6/Documents/personal/Java/event-driven-microservice)
+2021-06-20 20:09:36 [main] INFO  c.app.t2k.TwitterToKafkaApplication - No active profile set, falling back to default profiles: default
+2021-06-20 20:09:37 [main] INFO  c.app.t2k.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.859 seconds (JVM running for 1.934)
+2021-06-20 20:09:37 [main] INFO  TweetLoader - Application starts
+2021-06-20 20:09:37 [main] INFO  TweetLoader - [Java, Microservices, Spring, Kafka, ElasticSearch]
+2021-06-20 20:09:37 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2021-06-20 20:09:37 [main] INFO  c.a.t.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords: [Java, Microservices, Spring, Kafka, ElasticSearch]
+2021-06-20 20:09:45 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2021-06-20 20:09:45 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+2021-06-20 20:09:45 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @Aye_Chan_Pyae: We will protest against Military Dictatorship with every possible way we can until we win.
+#WhatsHappeningInMyanmar 
+#Ju…
+2021-06-20 20:09:45 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @POETHETHTAR2: Anti-coup night strike by creating the text, "Spring Strike, CRPH" with Candlelight in #Taze Tsp. 
+#June20Coup
+#WhatsHapp…
+2021-06-20 20:09:45 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: #June20Coup #WhatsHappeningInMyanmar #MilkTeaAllianceMyanmar
+2021-06-20 20:09:46 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: Gorąco nie tylko na dworze, ale również na serwerze! Przed nami ostatnie spotkania w BLAST Premier Spring Final! Relacja jak zwykle na kanale twitch @esportnowpl 
 
-🐰: ขอเชิญคุณมาร่วมสนุกกับแสงแดดในสไตล์อิตาลีด้วยกัน วันที่ 19 มิถุนายน เวลา สามทุ่ม ขอเชิญชวนให้คุณมารับชม TOD'S Spr…
-2021-06-19 22:19:34 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @Wajdialkayal1: React Native Developer
-#react #javascript #php #java #reactjs #html #css #developer #ui #workinghours #python #experienc…
-2021-06-19 22:19:34 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @NaviGoBoom: And with that, the FEG-spec 3D printed Hi-Power frame is confirmed. One failure to eject, but I'm blaming that on using a 3…
-2021-06-19 22:19:35 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @Wajdialkayal1: React Native Developer
-#react #javascript #php #java #reactjs #html #css #developer #ui #workinghours #python #experienc…
-2021-06-19 22:19:36 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: Bruh what is this you ban Mexicans for saying Puto and prevent fans from going to the stadiums yet FIFA is still allowing Qatar to host the world cup and a place that discriminates against the lgbtq community.
-2021-06-19 22:19:37 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: Happy Juneteenth!
+https://t.co/Mvu76bGZcR 🎥 https://t.co/1nZU3C2FZC
+2021-06-20 20:09:47 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @POETHETHTAR2: Anti-coup night strike by creating the text, "Spring Strike, CRPH" with Candlelight in #Taze Tsp. 
+#June20Coup
+#WhatsHapp…
+2021-06-20 20:09:48 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: the unbothered queen spring day
+2021-06-20 20:09:48 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: @seokjinawak3 Lgo lower than spring day on melon yet armys see butter #1 on melon n thinks its cz of the kfans. Like they didnt lgo drop to #3 on genie after 2 days
+2021-06-20 20:09:48 [SpringApplicationShutdownHook] INFO  c.a.t.r.i.TwitterKafkaStreamRunner - Closing twitter stream
+2021-06-20 21:10:11 [main] INFO  c.a.t.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.11 on Tanayas-MacBook-Pro.local with PID 95832 (/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes started by t0k02w6 in /Users/t0k02w6/Documents/personal/Java/event-driven-microservice)
+2021-06-20 21:10:11 [main] INFO  c.a.t.s.TwitterToKafkaApplication - No active profile set, falling back to default profiles: default
+2021-06-20 21:10:12 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tweetLoader' defined in file [/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes/com/app/t2k/service/bootstrap/TweetLoader.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.app.t2k.config.TwitterToKafkaConfig' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2021-06-20 21:10:12 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
 
-Support a Black Creator by shopping my Business Shadow's Rose! Will have new items soon so be on the lookout!
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-06-20 21:10:12 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
 
-Displate: https://t.co/vDTy26ct5H
-Spring(Teespring): https://t.co/z3wJ2OMI05
-2021-06-19 22:19:38 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: PictureThis - Identifiez instantanément vos plantes.
-https://t.co/0XYx3SJ1sC
-2021-06-19 22:19:39 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: Now playing BandoIG ft.Cap & Nimo Bluus - Spring Break '21  
-WORLD PREMIER OF RAP CAP MUSIC VIDEO!!!! CLICK THE LINK
-https://t.co/JjNzxgFCZk
-2021-06-19 22:19:39 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @myglyricbot: yeah for someone, i'm spring; for another, winter. for someone, i'm the end; for another, the beginning. i'm someone's hap…
-2021-06-19 22:19:40 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @passnumber1: PassNumber application is ready..
+***************************
+APPLICATION FAILED TO START
+***************************
 
-#cybersecurity #security #ransomware #bugbounty #bugbountytips #web #password #Gmail #p…
-2021-06-19 22:19:40 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @knowprogram: Use your keyboard to make some important symbols
+Description:
 
-👉 Retweet to share information🌐
-#FullStack #python3 #datatype #programmi…
-2021-06-19 22:19:44 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: @tiaaannnnnn Spring day
-2021-06-19 22:19:44 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: ✨When Winter Turns To Spring: February Beginnings✨
+Parameter 0 of constructor in com.app.t2k.service.bootstrap.TweetLoader required a bean of type 'com.app.t2k.config.TwitterToKafkaConfig' that could not be found.
 
-Snippet 
-M!nsvng royals in the building https://t.co/bLxXWDc8s1
-2021-06-19 22:19:45 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: @kdohwani racket boys and at a distance spring is green
-2021-06-19 22:19:46 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: mindfully ease through the wet brushes of the Ridgelands. Chest welcomes the dying spring air and bringing a cold relief to his burning muscles.
 
-Experienced huntsman, Link chooses the untamed wilds over the royal grounds, where breeders and husbands fatten and release animals—
-2021-06-19 22:19:46 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @rourkesdiamonds: Celebrate pride with the Proud Diamond collection 💎
-50% of the profits will be donated to these organizations 💖 
-https…
-2021-06-19 22:19:48 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: Since the return from her stay on the moon
-She listens like spring and she talks like June
-2021-06-19 22:19:49 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @GRL_official: 2021 Spring&Summer
-白石麻衣さん🌼
+Action:
 
-👇着用アイテムはこちら👇
-https://t.co/OLMfELzgRp
+Consider defining a bean of type 'com.app.t2k.config.TwitterToKafkaConfig' in your configuration.
 
-#GRL #グレイル #白石麻衣 #まいやん https://t.co/ppOL3b1Kjb
-2021-06-19 22:19:52 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: The only people who convinced me that books are essential in understanding lyrics are BTS.
-
-I DIDNT READ THE ENTIRE MAP OF THE SOUL THEORY AND OMELAS AND LITTLE PRNCE AND KAFKA ON THE SHORE FOR YA'LL TO DISMISS BTS'S LYRICISM.
-
-NOW TELL ME, WHAT'S YOUR BOOK REFERENCE?!
-2021-06-19 22:19:53 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @Dk_toM: ถามว่าลาออกทำไม.. ตอบคือลาออกเพื่อเปิดทางให้แต่งตั้งคณะกรรมการบริหารพรรคใหม่ และดันธรรมนัสมานั่งเป็นเลขา แค่นั้นแหละ
-2021-06-19 22:19:54 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: 😂
-2021-06-19 22:19:54 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: @bachiiira j'ai vu qqn dire que PEUT-ETRE que fruits basket ça allait toper blue spring ride en mode c'était déjà pas le cas qd mm......
-2021-06-19 22:19:56 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @diorangxl: Fendi Spring 2022 Menswear https://t.co/pXrLTUQ64q
-2021-06-19 22:19:56 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @kookflowers: Essa galera não se presta ao serviço de pesquisar o trabalho do Bangtan e quer pagar de bom, agora quero ver questionar mú…
-2021-06-19 22:19:58 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @_gastt: Dresses from Chalayan x Asylum Spring 2009. https://t.co/kLE3WeqU7E
-2021-06-19 22:19:59 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @0lympicker: 😂 https://t.co/uY1oA6FxlW
-2021-06-19 22:20:00 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @latimes: ADIÓS, HOMOPHOBIA! 👋
-
-Mexico’s soccer team is banning fans at its first two World Cup qualifiers after they used an anti-gay c…
-2021-06-19 22:20:00 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: @fortniteboss321 the rain made it so theres 72% humidity here. everything is sticky and damp cus of that cancer rain. i want spring back, fuck this shit
-2021-06-19 22:20:01 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: i own a hot spring now ehe https://t.co/GNcmeVVt2z
-2021-06-19 22:20:01 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @DorienYPC: Spring Camp Files 📁 https://t.co/9BR3mXeEeF
-2021-06-19 22:20:02 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @eunhae___: 🧑🏻 : Get me some spring onion, garlic & chilli powder~
-💎 : Where
-🧑🏻 : Try look for it
-💎 : U said it’s ready! (food)
-
-💎 : Y’a…
-2021-06-19 22:20:03 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: Buddhist Monks in Myanmar sent prayers for the immediate restoration of democracy and for the fallen heroes of Spring Revolution as they held three fingers, this evening.   FREEDOM FROM FEAR #WhatsHappeningInMyanmar #June19Coup #76FlowerStrike https://t.co/oWn2YuyNpZ
-2021-06-19 22:20:05 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: Buddhist Monks in Myanmar sent prayers for the immediate restoration of democracy and for the fallen heroes of Spring Revolution as they held three fingers, this evening.   FREEDOM FROM FEAR #WhatsHappeningInMyanmar #June19Coup #76FlowerStrike https://t.co/Xz6G0zf80N
-2021-06-19 22:20:05 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: RT @JapanTraCul: Spring Rain Collection (Harusame shū), vol. 3: Swallows and Peonies, by Teisai Hokuba (1771–1844)
-
-#ukiyoe https://t.co/gi…
-2021-06-19 22:20:05 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.l.TwitterKafkaStatusListener - Twitter status with text: 『spring』さんの映画レビュー | Filmarks #Filmarks #映画 https://t.co/DBC9geicFz
-2021-06-19 22:20:07 [SpringApplicationShutdownHook] INFO  c.a.t.r.i.TwitterKafkaStreamRunner - Closing twitter stream
+2021-06-20 21:16:02 [main] INFO  c.a.t.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.11 on Tanayas-MacBook-Pro.local with PID 96446 (/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes started by t0k02w6 in /Users/t0k02w6/Documents/personal/Java/event-driven-microservice)
+2021-06-20 21:16:02 [main] INFO  c.a.t.s.TwitterToKafkaApplication - No active profile set, falling back to default profiles: default
+2021-06-20 21:16:02 [main] INFO  c.a.t.s.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.823 seconds (JVM running for 1.909)

@@ -1,4 +1,4 @@
-package com.app.t2k.listener;
+package com.app.t2k.service.listener;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;

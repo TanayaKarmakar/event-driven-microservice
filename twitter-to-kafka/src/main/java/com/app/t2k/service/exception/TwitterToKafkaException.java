@@ -1,4 +1,4 @@
-package com.app.t2k.exception;
+package com.app.t2k.service.exception;
 
 /**
  * @author t0k02w6 on 20/06/21

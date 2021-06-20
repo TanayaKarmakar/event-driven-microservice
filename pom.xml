@@ -8,7 +8,7 @@
         <version>2.5.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.app.evt</groupId>
+    <groupId>com.app.t2k</groupId>
     <artifactId>event-driven-microservice</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>event-driven-microservice</name>
@@ -22,6 +22,7 @@
     </properties>
     <modules>
         <module>twitter-to-kafka</module>
+        <module>twitter-to-kafka-common-conifg</module>
     </modules>
     <dependencies>
         <dependency>
@@ -29,22 +30,22 @@
             <artifactId>lombok</artifactId>
             <scope>provided</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+            <version>${spring.boot.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <version>${spring.boot.version}</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
     <dependencyManagement>
         <dependencies>
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter</artifactId>
-                <version>${spring.boot.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-test</artifactId>
-                <version>${spring.boot.version}</version>
-                <scope>test</scope>
-            </dependency>
-
             <dependency>
                 <groupId>org.twitter4j</groupId>
                 <artifactId>twitter4j-stream</artifactId>

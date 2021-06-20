@@ -1,8 +1,9 @@
-package com.app.t2k.runner.impl;
+package com.app.t2k.service.runner.impl;
+
 
 import com.app.t2k.config.TwitterToKafkaConfig;
-import com.app.t2k.listener.TwitterKafkaStatusListener;
-import com.app.t2k.runner.StreamRunner;
+import com.app.t2k.service.listener.TwitterKafkaStatusListener;
+import com.app.t2k.service.runner.StreamRunner;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;

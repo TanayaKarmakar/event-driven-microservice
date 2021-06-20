@@ -1,4 +1,4 @@
-package com.app.t2k.runner;
+package com.app.t2k.service.runner;
 
 import twitter4j.TwitterException;
 

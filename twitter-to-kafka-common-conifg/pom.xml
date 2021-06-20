@@ -7,25 +7,15 @@
         <artifactId>event-driven-microservice</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
+    <packaging>jar</packaging>
     <groupId>com.app.t2k</groupId>
-    <artifactId>twitter-to-kafka</artifactId>
+    <artifactId>twitter-to-kafka-common-conifg</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>twitter-to-kafka</name>
+    <name>twitter-to-kafka-common-conifg</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>11</java.version>
     </properties>
-    <dependencies>
-        <dependency>
-            <groupId>com.app.t2k</groupId>
-            <artifactId>twitter-to-kafka-common-conifg</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>org.twitter4j</groupId>
-            <artifactId>twitter4j-stream</artifactId>
-        </dependency>
-    </dependencies>
 
     <build>
         <plugins>

@@ -1,13 +1,13 @@
-package com.app.t2k;
+package com.app.t2k.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TwitterToKafkaApplication {
+public class TwitterToKafkaCommonConifgApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TwitterToKafkaApplication.class, args);
+        SpringApplication.run(TwitterToKafkaCommonConifgApplication.class, args);
     }
 
 }
