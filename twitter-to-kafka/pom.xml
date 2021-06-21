@@ -26,7 +26,7 @@
         </dependency>
         <dependency>
             <groupId>com.app</groupId>
-            <artifactId>twitter-to-kafka-common-conifg</artifactId>
+            <artifactId>twitter-to-kafka-common-config-data</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>

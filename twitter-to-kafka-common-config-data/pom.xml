@@ -8,7 +8,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <packaging>jar</packaging>
-    <artifactId>twitter-to-kafka-common-conifg</artifactId>
+    <artifactId>twitter-to-kafka-common-config-data</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>twitter-to-kafka-common-conifg</name>
     <description>Demo project for Spring Boot</description>
