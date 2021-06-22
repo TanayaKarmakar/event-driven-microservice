@@ -15,11 +15,6 @@
         <java.version>11</java.version>
     </properties>
     <dependencies>
-<!--        <dependency>-->
-<!--            <groupId>com.app.t2k</groupId>-->
-<!--            <artifactId>twitter-to-kafka-common-conifg</artifactId>-->
-<!--            <version>0.0.1-SNAPSHOT</version>-->
-<!--        </dependency>-->
         <dependency>
             <groupId>org.twitter4j</groupId>
             <artifactId>twitter4j-stream</artifactId>
@@ -29,6 +24,16 @@
             <artifactId>twitter-to-kafka-common-config-data</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.app</groupId>
+            <artifactId>kafka-admin</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.app</groupId>
+            <artifactId>kafka-producer</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

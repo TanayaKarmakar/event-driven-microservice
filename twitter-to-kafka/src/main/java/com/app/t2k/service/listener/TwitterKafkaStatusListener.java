@@ -1,5 +1,11 @@
 package com.app.t2k.service.listener;
 
+import com.app.t2k.config.KafkaConfigData;
+import com.app.t2k.config.KafkaProducerConfigData;
+import com.app.t2k.kafka.avro.model.TwitterAvroModel;
+import com.app.t2k.kafka.producer.config.service.KafkaProducer;
+import com.app.t2k.service.transformer.TwitterStatusToAvroTransformer;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 import twitter4j.Status;
@@ -11,9 +17,16 @@ import twitter4j.StatusAdapter;
  */
 @Slf4j
 @Component
+@RequiredArgsConstructor
 public class TwitterKafkaStatusListener extends StatusAdapter {
+    private final KafkaConfigData kafkaConfigData;
+    private final KafkaProducer<Long, TwitterAvroModel> kafkaProducer;
+    private final TwitterStatusToAvroTransformer twitterStatusToAvroTransformer;
+
     @Override
     public void onStatus(Status status) {
         log.info("Twitter status with text: {}", status.getText());
+        TwitterAvroModel twitterAvroModel = twitterStatusToAvroTransformer.getTwitterAvroModelFromStatus(status);
+        kafkaProducer.send(kafkaConfigData.getTopicName(), twitterAvroModel.getUserId(), twitterAvroModel);
     }
 }
