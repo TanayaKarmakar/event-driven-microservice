@@ -2,7 +2,6 @@ package com.app.t2k.kafka.to.elastic.kafka.producer.config;
 
 import com.app.t2k.kafka.to.elastic.config.KafkaConfigData;
 import com.app.t2k.kafka.to.elastic.config.KafkaProducerConfigData;
-import lombok.RequiredArgsConstructor;
 import org.apache.avro.specific.SpecificRecordBase;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.springframework.context.annotation.Bean;
@@ -20,10 +19,14 @@ import java.util.Map;
  * @project event-driven-microservice
  */
 @Configuration
-@RequiredArgsConstructor
 public class KafkaProducerConfig<K extends Serializable, V extends SpecificRecordBase> {
     private final KafkaConfigData kafkaConfigData;
     private final KafkaProducerConfigData kafkaProducerConfigData;
+
+    public KafkaProducerConfig(KafkaConfigData kafkaConfigData, KafkaProducerConfigData kafkaProducerConfigData) {
+        this.kafkaConfigData = kafkaConfigData;
+        this.kafkaProducerConfigData = kafkaProducerConfigData;
+    }
 
     @Bean
     public Map<String, Object> producerConfig() {

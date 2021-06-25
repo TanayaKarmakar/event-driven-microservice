@@ -1,7 +1,6 @@
 package com.app.t2k.kafka.to.elastic.common.config;
 
 import com.app.t2k.kafka.to.elastic.config.RetryConfigData;
-import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.retry.backoff.ExponentialBackOffPolicy;
@@ -13,9 +12,12 @@ import org.springframework.retry.support.RetryTemplate;
  * @project event-driven-microservice
  */
 @Configuration
-@RequiredArgsConstructor
 public class RetryConfig {
     private final RetryConfigData retryConfigData;
+
+    public RetryConfig(RetryConfigData configData) {
+        this.retryConfigData = configData;
+    }
 
     @Bean
     public RetryTemplate retryTemplate() {

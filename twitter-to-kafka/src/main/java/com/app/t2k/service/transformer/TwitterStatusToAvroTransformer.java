@@ -1,6 +1,6 @@
 package com.app.t2k.service.transformer;
 
-import com.app.t2k.kafka.to.elastic.kafka.avro.model.TwitterAvroModel;
+import com.app.t2k.kafka.avro.model.TwitterAvroModel;
 import org.springframework.stereotype.Component;
 import twitter4j.Status;
 

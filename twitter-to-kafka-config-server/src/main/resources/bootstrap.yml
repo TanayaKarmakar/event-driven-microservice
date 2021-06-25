@@ -1,13 +1,11 @@
-#spring:
-#  profiles:
-#    active: composite
-#  application:
-#    name: twitter-to-kafka-config-server
-#  cloud:
-#    config:
-#      server:
-#        git:
-#          uri: https://github.com/TanayaKarmakar/twitter-to-kafka-config-repo
-#          clone-on-start: true
-#          search-paths: {application}
-#      fail-fast: true
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/TanayaKarmakar/twitter-to-kafka-config-repo
+          default-label: main
+          clone-on-start: true
+    fail-fast: true

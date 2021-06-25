@@ -12790,3 +12790,491 @@ Guo Wengui's spring and autumn dream is ridiculous, ants have begun to fight bac
 2021-06-25 09:27:47 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.k.t.e.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 874863283, "id": 1408273171086725120, "text": "RT @PBRIndiana: \u2022Brody Chrisman - 6\u20193/190lbs \u2022Uncommitted 2022 OF\n\u2022IN #20 overall player #3 OF ranking\n\u2022Loud Toolset (6.8, 93 OF, 100 Exit)\u2026", "createdAt": "1624593463000"}' to topic = 'twitter-topic'
 2021-06-25 09:27:48 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: https://t.co/nvNbAnMMj9 #day #automatically #save #return #sale #postage #hasslefree #spring #applied #order #code #discount #paid #shipping #use #unseen https://t.co/rm3gST0Elk
 2021-06-25 09:27:48 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.k.t.e.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 1384194235226755083, "id": 1408273171598528517, "text": "https://t.co/nvNbAnMMj9 #day #automatically #save #return #sale #postage #hasslefree #spring #applied #order #code #discount #paid #shipping #use #unseen https://t.co/rm3gST0Elk", "createdAt": "1624593463000"}' to topic = 'twitter-topic'
+2021-06-25 08:55:30 [main] INFO  c.app.t2k.TwitterToKafkaApplication - The following profiles are active: twitter-to-kafka
+2021-06-25 08:55:31 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=83f386a5-565a-3206-9b22-0fb9e6948725
+2021-06-25 08:55:31 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-25 08:55:31 [main] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	bootstrap.servers = [localhost:19092, localhost:29092, localhost:39092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2021-06-25 08:55:31 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 2.7.1
+2021-06-25 08:55:31 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 61dbce85d0d41457
+2021-06-25 08:55:31 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1624604131757
+2021-06-25 08:55:31 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2021-06-25 08:55:31 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2021-06-25 08:55:31 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2021-06-25 08:55:31 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2021-06-25 08:55:31 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2021-06-25 08:55:31 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2021-06-25 08:55:31 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2021-06-25 08:55:31 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2021-06-25 08:55:31 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2021-06-25 08:55:32 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 5c68fd02-8606-4add-9466-d38aaeb35c1d
+
+2021-06-25 08:55:32 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2021-06-25 08:55:32 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2021-06-25 08:55:32 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2021-06-25 08:55:32 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2021-06-25 08:55:32 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2021-06-25 08:55:32 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8082
+2021-06-25 08:55:32 [main] INFO  c.app.t2k.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 2.806 seconds (JVM running for 3.366)
+2021-06-25 08:55:32 [main] INFO  c.a.t.service.bootstrap.TweetLoader - Application starts
+2021-06-25 08:55:32 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2021-06-25 08:55:32 [main] INFO  c.a.t.k.t.e.k.a.c.c.KafkaAdminClient - Creating 1 topic(s), attempts 0
+2021-06-25 08:55:32 [main] INFO  c.a.t.k.t.e.k.a.c.c.KafkaAdminClient - Reading kafka topics [twitter-topic], attempts0
+2021-06-25 08:55:33 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2021-06-25 08:55:33 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2021-06-25 08:55:33 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2021-06-25 08:55:34 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2021-06-25 08:55:34 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2021-06-25 08:55:34 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2021-06-25 08:55:35 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2021-06-25 08:55:35 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2021-06-25 08:55:35 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2021-06-25 08:55:36 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2021-06-25 08:55:36 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2021-06-25 08:55:36 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2021-06-25 08:55:37 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2021-06-25 08:55:37 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2021-06-25 08:55:38 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2021-06-25 08:55:38 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2021-06-25 08:55:38 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2021-06-25 08:55:39 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2021-06-25 08:55:39 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2021-06-25 08:55:40 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2021-06-25 08:55:40 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2021-06-25 08:55:40 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2021-06-25 08:55:41 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2021-06-25 08:55:41 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2021-06-25 08:55:41 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2021-06-25 08:55:42 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2021-06-25 08:55:42 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2021-06-25 08:55:42 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2021-06-25 08:55:43 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2021-06-25 08:55:43 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2021-06-25 08:55:43 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2021-06-25 08:55:44 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2021-06-25 08:55:44 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2021-06-25 08:55:44 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2021-06-25 08:55:45 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2021-06-25 08:55:45 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2021-06-25 08:55:45 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2021-06-25 08:55:46 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2021-06-25 08:55:46 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2021-06-25 08:55:46 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2021-06-25 08:55:47 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2021-06-25 08:55:47 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2021-06-25 08:55:47 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2021-06-25 08:55:48 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2021-06-25 08:55:48 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2021-06-25 08:55:48 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2021-06-25 08:55:49 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2021-06-25 08:55:49 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2021-06-25 08:55:49 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2021-06-25 08:55:50 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2021-06-25 08:55:50 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2021-06-25 08:55:50 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2021-06-25 08:55:51 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2021-06-25 08:55:51 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2021-06-25 08:55:51 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2021-06-25 08:55:52 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2021-06-25 08:55:52 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2021-06-25 08:55:52 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2021-06-25 08:55:53 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2021-06-25 08:55:53 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2021-06-25 08:55:53 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2021-06-25 08:55:54 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2021-06-25 08:55:54 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2021-06-25 08:55:54 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2021-06-25 08:56:01 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.a.i.AdminMetadataManager - [AdminClient clientId=adminclient-1] Metadata update failed
+org.apache.kafka.common.errors.TimeoutException: Call(callName=fetchMetadata, deadlineMs=1624604161763, tries=1, nextAllowedTryMs=1624604161864) timed out at 1624604161764 after 1 attempt(s)
+Caused by: org.apache.kafka.common.errors.TimeoutException: Timed out waiting for a node assignment. Call: fetchMetadata
+2021-06-25 08:56:13 [main] INFO  c.app.t2k.TwitterToKafkaApplication - The following profiles are active: twitter-to-kafka
+2021-06-25 08:56:13 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=83f386a5-565a-3206-9b22-0fb9e6948725
+2021-06-25 08:56:14 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-25 08:56:14 [main] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	bootstrap.servers = [localhost:19092, localhost:29092, localhost:39092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2021-06-25 08:56:14 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 2.7.1
+2021-06-25 08:56:14 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 61dbce85d0d41457
+2021-06-25 08:56:14 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1624604174501
+2021-06-25 08:56:14 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 16983cf9-94fe-47ca-a1cd-4e6a1a8ad787
+
+2021-06-25 08:56:15 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8082
+2021-06-25 08:56:15 [main] INFO  c.app.t2k.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 3.801 seconds (JVM running for 4.71)
+2021-06-25 08:56:15 [main] INFO  c.a.t.service.bootstrap.TweetLoader - Application starts
+2021-06-25 08:56:15 [main] INFO  c.a.t.k.t.e.k.a.c.c.KafkaAdminClient - Creating 1 topic(s), attempts 0
+2021-06-25 08:56:15 [main] INFO  c.a.t.k.t.e.k.a.c.c.KafkaAdminClient - Reading kafka topics [twitter-topic], attempts0
+2021-06-25 08:56:16 [main] ERROR c.a.t.s.i.i.KafkaStreamInitializer - An error occurred 
+java.lang.NullPointerException: null
+	at com.app.t2k.kafka.to.elastic.kafka.admin.config.client.KafkaAdminClient.sleep(KafkaAdminClient.java:93)
+	at com.app.t2k.kafka.to.elastic.kafka.admin.config.client.KafkaAdminClient.checkSchemaRegistry(KafkaAdminClient.java:73)
+	at com.app.t2k.service.init.impl.KafkaStreamInitializer.init(KafkaStreamInitializer.java:25)
+	at com.app.t2k.service.bootstrap.TweetLoader.run(TweetLoader.java:27)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.app.t2k.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:10)
+2021-06-25 08:56:16 [main] INFO  c.a.t.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords: [Java, Microservices, Spring, Kafka, ElasticSearch]
+2021-06-25 08:56:16 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2021-06-25 08:56:21 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2021-06-25 08:56:21 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+2021-06-25 08:56:21 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @yutan_tobio: 【交換譲渡】
+あんスタ イベコレ 缶バッジ 2020 spring idol
+
+譲）英智2 ☆渉3 忍2 ☆鉄虎1 ☆マヨイ2 ☆凪砂1
+
+求）スバル＞定価＋送料
+
+⚠️求はidol shotのみです
+無印のみ譲渡可
+27日名古屋手渡し優先(郵…
+2021-06-25 08:56:22 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.k.t.e.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 1083746093865721857, "id": 1408318100835954691, "text": "RT @yutan_tobio: 【交換譲渡】\nあんスタ イベコレ 缶バッジ 2020 spring idol\n\n譲）英智2 ☆渉3 忍2 ☆鉄虎1 ☆マヨイ2 ☆凪砂1\n\n求）スバル＞定価＋送料\n\n⚠️求はidol shotのみです\n無印のみ譲渡可\n27日名古屋手渡し優先(郵\u2026", "createdAt": "1624604175000"}' to topic = 'twitter-topic'
+2021-06-25 08:56:22 [Twitter4J Async Dispatcher[0]] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 1638400
+	bootstrap.servers = [localhost:19092, localhost:29092, localhost:39092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	internal.auto.downgrade.txn.commit = true
+	key.serializer = class org.apache.kafka.common.serialization.LongSerializer
+	linger.ms = 5
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 60000
+	retries = 5
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class io.confluent.kafka.serializers.KafkaAvroSerializer
+
+2021-06-25 08:56:22 [Twitter4J Async Dispatcher[0]] INFO  i.c.k.s.KafkaAvroSerializerConfig - KafkaAvroSerializerConfig values: 
+	bearer.auth.token = [hidden]
+	proxy.port = -1
+	schema.reflection = false
+	auto.register.schemas = true
+	max.schemas.per.subject = 1000
+	basic.auth.credentials.source = URL
+	value.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+	schema.registry.url = [http://localhost:8081]
+	basic.auth.user.info = [hidden]
+	proxy.host = 
+	use.latest.version = false
+	schema.registry.basic.auth.user.info = [hidden]
+	bearer.auth.credentials.source = STATIC_TOKEN
+	key.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+
+2021-06-25 08:56:22 [Twitter4J Async Dispatcher[0]] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 2.7.1
+2021-06-25 08:56:22 [Twitter4J Async Dispatcher[0]] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 61dbce85d0d41457
+2021-06-25 08:56:22 [Twitter4J Async Dispatcher[0]] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1624604182054
+2021-06-25 08:56:22 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Cluster ID: VKAelDc7Rea0uipYWFFJPw
+2021-06-25 08:56:22 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @Sadhavas: Very 🤞Important📌 in any programming language📚🔗💥#100DaysOfCode #java #reactjs #Python #javascript #vuejs #webdevelopment #Soft…
+2021-06-25 08:56:22 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.k.t.e.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 1336432915941474305, "id": 1408318111032426497, "text": "RT @Sadhavas: Very 🤞Important📌 in any programming language📚🔗💥#100DaysOfCode #java #reactjs #Python #javascript #vuejs #webdevelopment #Soft\u2026", "createdAt": "1624604177000"}' to topic = 'twitter-topic'
+2021-06-25 08:56:22 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @Sadhavas: Very 🤞Important📌 in any programming language📚🔗💥#100DaysOfCode #java #reactjs #Python #javascript #vuejs #webdevelopment #Soft…
+2021-06-25 08:56:22 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.k.t.e.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 1337430590241562626, "id": 1408318111326085123, "text": "RT @Sadhavas: Very 🤞Important📌 in any programming language📚🔗💥#100DaysOfCode #java #reactjs #Python #javascript #vuejs #webdevelopment #Soft\u2026", "createdAt": "1624604177000"}' to topic = 'twitter-topic'
+2021-06-25 08:56:22 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @Sadhavas: Very 🤞Important📌 in any programming language📚🔗💥#100DaysOfCode #java #reactjs #Python #javascript #vuejs #webdevelopment #Soft…
+2021-06-25 08:56:22 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.k.t.e.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 3532655353, "id": 1408318111959425024, "text": "RT @Sadhavas: Very 🤞Important📌 in any programming language📚🔗💥#100DaysOfCode #java #reactjs #Python #javascript #vuejs #webdevelopment #Soft\u2026", "createdAt": "1624604177000"}' to topic = 'twitter-topic'
+2021-06-25 08:56:22 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @yutan_tobio: 【交換譲渡】
+あんスタ イベコレ 缶バッジ 2020 spring idol
+
+譲）英智2 ☆渉3 忍2 ☆鉄虎1 ☆マヨイ2 ☆凪砂1
+
+求）スバル＞定価＋送料
+
+⚠️求はidol shotのみです
+無印のみ譲渡可
+27日名古屋手渡し優先(郵…
+2021-06-25 08:56:22 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.k.t.e.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 1351667912428318720, "id": 1408318112206712833, "text": "RT @yutan_tobio: 【交換譲渡】\nあんスタ イベコレ 缶バッジ 2020 spring idol\n\n譲）英智2 ☆渉3 忍2 ☆鉄虎1 ☆マヨイ2 ☆凪砂1\n\n求）スバル＞定価＋送料\n\n⚠️求はidol shotのみです\n無印のみ譲渡可\n27日名古屋手渡し優先(郵\u2026", "createdAt": "1624604177000"}' to topic = 'twitter-topic'
+2021-06-25 08:56:23 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @autherok: Franz Kafka’nın da dediği gibi ‘’pek çok şeyin bambaşka olmasını isterdim.’’
+2021-06-25 08:56:23 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.k.t.e.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 821504803037728768, "id": 1408318113809145862, "text": "RT @autherok: Franz Kafka\u2019nın da dediği gibi \u2018\u2019pek çok şeyin bambaşka olmasını isterdim.\u2019\u2019", "createdAt": "1624604178000"}' to topic = 'twitter-topic'
+2021-06-25 08:56:23 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: #Vh1Playlist @Vh1India please play Spring Day by @BTS_twt
+2021-06-25 08:56:23 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.k.t.e.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 1302973301283631104, "id": 1408318115495223297, "text": "#Vh1Playlist @Vh1India please play Spring Day by @BTS_twt", "createdAt": "1624604178000"}' to topic = 'twitter-topic'
+2021-06-25 08:56:24 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: Buckle up Java Developers for @jloveconf  in 30 minutes @10:00 CEST where you witness @glaforge  talk about Skyrocket Micronaut microservices into Google Cloud! Don't miss out on the opportunity to apply for Jobs on Recorem.  
+Visit : https://t.co/uzxpNHTXJO
+#Jobspoweredbyrecorem https://t.co/5ABCeCBHs5
+2021-06-25 08:56:24 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.k.t.e.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 1250043590467878912, "id": 1408318118447902722, "text": "Buckle up Java Developers for @jloveconf  in 30 minutes @10:00 CEST where you witness @glaforge  talk about Skyrocket Micronaut microservices into Google Cloud! Don't miss out on the opportunity to apply for Jobs on Recorem.  \nVisit : https://t.co/uzxpNHTXJO\n#Jobspoweredbyrecorem https://t.co/5ABCeCBHs5", "createdAt": "1624604179000"}' to topic = 'twitter-topic'
+2021-06-25 08:56:26 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @dbktjt: 【交換】あんスタ イベコレ 缶バッジ 2020 SPRING idol
+
+譲:スバル・真緒・マヨイ・英智・渉
+
+求:鉄虎
+
+※本日6/25(終日)・6/26(16:00以降)池袋にて手渡しのお取引ができる方
+
+難しいと思いますが宜しくお願い致します。 h…
+2021-06-25 08:56:26 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.k.t.e.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 957077292844384256, "id": 1408318125892784132, "text": "RT @dbktjt: 【交換】あんスタ イベコレ 缶バッジ 2020 SPRING idol\n\n譲:スバル・真緒・マヨイ・英智・渉\n\n求:鉄虎\n\n\u203B本日6/25(終日)・6/26(16:00以降)池袋にて手渡しのお取引ができる方\n\n難しいと思いますが宜しくお願い致します。 h\u2026", "createdAt": "1624604181000"}' to topic = 'twitter-topic'
+2021-06-25 08:56:28 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @teamwangofcl: L’officiel Hommes Korea
+SPRING/SUMMER 2021
+@JacksonWang852
+.
+#JacksonWang 
+#TEAMWANG 
+#LofficielHommes https://t.co/CaUlQ…
+2021-06-25 08:56:28 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.k.t.e.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 1378062937827512324, "id": 1408318136231792643, "text": "RT @teamwangofcl: L\u2019officiel Hommes Korea\nSPRING/SUMMER 2021\n@JacksonWang852\n.\n#JacksonWang \n#TEAMWANG \n#LofficielHommes https://t.co/CaUlQ\u2026", "createdAt": "1624604183000"}' to topic = 'twitter-topic'
+2021-06-25 08:56:29 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2021-06-25 08:56:29 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2021-06-25 08:56:29 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2021-06-25 08:56:29 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2021-06-25 08:56:29 [SpringApplicationShutdownHook] INFO  c.a.t.s.r.i.TwitterKafkaStreamRunner - Closing twitter stream
+2021-06-25 08:56:30 [SpringApplicationShutdownHook] INFO  c.a.t.k.t.e.k.p.c.s.i.TwitterKafkaProducer - Closing kafka Producer !
+2021-06-25 08:56:30 [SpringApplicationShutdownHook] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2021-06-25 08:56:30 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2021-06-25 08:56:30 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2021-06-25 08:56:30 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2021-06-25 08:56:30 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.producer for producer-1 unregistered
+2021-06-25 08:59:25 [main] INFO  c.app.t2k.TwitterToKafkaApplication - The following profiles are active: twitter-to-kafka
+2021-06-25 08:59:26 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=83f386a5-565a-3206-9b22-0fb9e6948725
+2021-06-25 08:59:26 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-25 08:59:26 [main] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	bootstrap.servers = [localhost:19092, localhost:29092, localhost:39092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2021-06-25 08:59:26 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 2.7.1
+2021-06-25 08:59:26 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 61dbce85d0d41457
+2021-06-25 08:59:26 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1624604366813
+2021-06-25 08:59:27 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 8dab331a-00cf-4b40-b0d0-9796b58a438b
+
+2021-06-25 08:59:27 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8082
+2021-06-25 08:59:27 [main] INFO  c.app.t2k.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 2.572 seconds (JVM running for 3.218)
+2021-06-25 08:59:27 [main] INFO  c.a.t.service.bootstrap.TweetLoader - Application starts
+2021-06-25 08:59:27 [main] INFO  c.a.t.k.t.e.k.a.c.c.KafkaAdminClient - Creating 1 topic(s), attempts 0
+2021-06-25 08:59:27 [main] INFO  c.a.t.k.t.e.k.a.c.c.KafkaAdminClient - Reading kafka topics [twitter-topic], attempts0
+2021-06-25 08:59:46 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2021-06-25 08:59:46 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2021-06-25 08:59:46 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2021-06-25 08:59:46 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2021-06-25 08:59:46 [SpringApplicationShutdownHook] INFO  c.a.t.k.t.e.k.p.c.s.i.TwitterKafkaProducer - Closing kafka Producer !
+2021-06-25 08:59:46 [main] ERROR c.a.t.s.i.i.KafkaStreamInitializer - An error occurred 
+java.lang.NullPointerException: null
+	at com.app.t2k.kafka.to.elastic.kafka.admin.config.client.KafkaAdminClient.sleep(KafkaAdminClient.java:93)
+	at com.app.t2k.kafka.to.elastic.kafka.admin.config.client.KafkaAdminClient.checkSchemaRegistry(KafkaAdminClient.java:73)
+	at com.app.t2k.service.init.impl.KafkaStreamInitializer.init(KafkaStreamInitializer.java:25)
+	at com.app.t2k.service.bootstrap.TweetLoader.run(TweetLoader.java:27)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.app.t2k.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:10)
+2021-06-25 08:59:46 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2021-06-25 08:59:46 [main] INFO  c.a.t.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords: [Java, Microservices, Spring, Kafka, ElasticSearch]
