@@ -1,0 +1,4 @@
+com/app/t2k/kafka/to/elastic/kafka/admin/config/WebClientConfig.class
+com/app/t2k/kafka/to/elastic/kafka/admin/config/client/KafkaAdminClient.class
+com/app/t2k/kafka/to/elastic/kafka/admin/config/exception/KafkaClientException.class
+com/app/t2k/kafka/to/elastic/kafka/admin/config/KafkaAdminConfig.class

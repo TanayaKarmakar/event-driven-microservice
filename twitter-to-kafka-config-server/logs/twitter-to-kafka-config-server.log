@@ -533,3 +533,31 @@ If you are using the git profile, you need to set a Git URI in your configuratio
 2021-06-25 08:55:07 [main] INFO  c.a.t.k.t.e.c.server.ConfigServer - Started ConfigServer in 4.303 seconds (JVM running for 4.824)
 2021-06-25 08:55:07 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
 2021-06-25 08:55:07 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-25 09:00:21 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-06-25 09:00:22 [main] INFO  c.a.t.k.t.e.c.server.ConfigServer - No active profile set, falling back to default profiles: default
+2021-06-25 09:00:22 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b11db685-220a-3920-945f-14189f1c90d3
+2021-06-25 09:00:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2021-06-25 09:00:23 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2021-06-25 09:00:23 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-25 09:00:23 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-25 09:00:23 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-25 09:00:23 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1018 ms
+2021-06-25 09:00:23 [main] DEBUG o.s.c.c.s.s.GitCredentialsProviderFactory - No credentials provider required for URI https://github.com/TanayaKarmakar/twitter-to-kafka-config-repo
+2021-06-25 09:00:25 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-06-25 09:00:25 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2021-06-25 09:00:25 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2021-06-25 09:00:25 [main] INFO  c.a.t.k.t.e.c.server.ConfigServer - Started ConfigServer in 4.337 seconds (JVM running for 4.879)
+2021-06-25 09:03:39 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-06-25 09:03:39 [main] INFO  c.a.t.k.t.e.c.server.ConfigServer - No active profile set, falling back to default profiles: default
+2021-06-25 09:03:40 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b11db685-220a-3920-945f-14189f1c90d3
+2021-06-25 09:03:40 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2021-06-25 09:03:40 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2021-06-25 09:03:40 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-25 09:03:40 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-25 09:03:41 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-25 09:03:41 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1081 ms
+2021-06-25 09:03:41 [main] DEBUG o.s.c.c.s.s.GitCredentialsProviderFactory - No credentials provider required for URI https://github.com/TanayaKarmakar/twitter-to-kafka-config-repo
+2021-06-25 09:03:43 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-06-25 09:03:43 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2021-06-25 09:03:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2021-06-25 09:03:43 [main] INFO  c.a.t.k.t.e.c.server.ConfigServer - Started ConfigServer in 4.665 seconds (JVM running for 5.217)

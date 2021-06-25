@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kafka-admin" />
+        <module name="twitter-to-kafka-common-config-data" />
+        <module name="twitter-to-kafka" />
+        <module name="twitter-to-kafka-config-server" />
+        <module name="kafka-model" />
+        <module name="kafka-consumer" />
+        <module name="kafka-producer" />
+        <module name="kafka-to-elastic-service" />
+        <module name="twitter-to-kafka-common-config" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="event-driven-microservice" target="11" />
+      <module name="kafka" target="11" />
+      <module name="kafka-admin" target="11" />
+      <module name="kafka-consumer" target="11" />
+      <module name="kafka-model" target="11" />
+      <module name="kafka-producer" target="11" />
+      <module name="kafka-to-elastic-service" target="11" />
+      <module name="twitter-to-kafka" target="11" />
+      <module name="twitter-to-kafka-common-config" target="11" />
+      <module name="twitter-to-kafka-common-config-data" target="11" />
+      <module name="twitter-to-kafka-config-server" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="kafka-admin" options="-parameters" />
+      <module name="kafka-consumer" options="-parameters" />
+      <module name="kafka-model" options="-parameters" />
+      <module name="kafka-producer" options="-parameters" />
+      <module name="kafka-to-elastic-service" options="-parameters" />
+      <module name="twitter-to-kafka" options="-parameters" />
+      <module name="twitter-to-kafka-common-config" options="-parameters" />
+      <module name="twitter-to-kafka-common-config-data" options="-parameters" />
+      <module name="twitter-to-kafka-config-server" options="-parameters" />
+    </option>
+  </component>
+</project>

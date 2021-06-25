@@ -1,0 +1,3 @@
+com/app/t2k/kafka/to/elastic/consumer/impl/TwitterKafkaConsumer.class
+com/app/t2k/kafka/to/elastic/consumer/KafkaConsumer.class
+com/app/t2k/kafka/to/elastic/KafkaToElasticServiceApplication.class

@@ -1,0 +1,5 @@
+com/app/t2k/kafka/to/elastic/config/KafkaProducerConfigData.class
+com/app/t2k/kafka/to/elastic/config/KafkaConsumerConfigData.class
+com/app/t2k/kafka/to/elastic/config/KafkaConfigData.class
+com/app/t2k/kafka/to/elastic/config/RetryConfigData.class
+com/app/t2k/kafka/to/elastic/config/TwitterToKafkaConfig.class

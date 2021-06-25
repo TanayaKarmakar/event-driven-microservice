@@ -1,0 +1,4 @@
+com/app/t2k/kafka/to/elastic/kafka/producer/config/service/KafkaProducer.class
+com/app/t2k/kafka/to/elastic/kafka/producer/config/service/impl/TwitterKafkaProducer$1.class
+com/app/t2k/kafka/to/elastic/kafka/producer/config/service/impl/TwitterKafkaProducer.class
+com/app/t2k/kafka/to/elastic/kafka/producer/config/KafkaProducerConfig.class

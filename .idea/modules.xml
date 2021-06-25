@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/event-driven-microservice.iml" filepath="$PROJECT_DIR$/event-driven-microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka/kafka.iml" filepath="$PROJECT_DIR$/kafka/kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka/kafka-admin/kafka-admin.iml" filepath="$PROJECT_DIR$/kafka/kafka-admin/kafka-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka/kafka-consumer/kafka-consumer.iml" filepath="$PROJECT_DIR$/kafka/kafka-consumer/kafka-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka/kafka-model/kafka-model.iml" filepath="$PROJECT_DIR$/kafka/kafka-model/kafka-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka/kafka-producer/kafka-producer.iml" filepath="$PROJECT_DIR$/kafka/kafka-producer/kafka-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-to-elastic-service/kafka-to-elastic-service.iml" filepath="$PROJECT_DIR$/kafka-to-elastic-service/kafka-to-elastic-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/twitter-to-kafka/twitter-to-kafka.iml" filepath="$PROJECT_DIR$/twitter-to-kafka/twitter-to-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/twitter-to-kafka-common-config/twitter-to-kafka-common-config.iml" filepath="$PROJECT_DIR$/twitter-to-kafka-common-config/twitter-to-kafka-common-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/twitter-to-kafka-common-config-data/twitter-to-kafka-common-config-data.iml" filepath="$PROJECT_DIR$/twitter-to-kafka-common-config-data/twitter-to-kafka-common-config-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/twitter-to-kafka-config-server/twitter-to-kafka-config-server.iml" filepath="$PROJECT_DIR$/twitter-to-kafka-config-server/twitter-to-kafka-config-server.iml" />
+    </modules>
+  </component>
+</project>
