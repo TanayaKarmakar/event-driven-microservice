@@ -31,7 +31,6 @@
         <module>kafka</module>
         <module>twitter-to-kafka-common-config</module>
         <module>twitter-to-kafka-config-server</module>
-        <module>kafka-consumer</module>
         <module>kafka-to-elastic-service</module>
     </modules>
     <dependencies>

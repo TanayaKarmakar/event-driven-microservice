@@ -1,15 +1,12 @@
 package com.app.t2k.service.bootstrap;
 
 
-import com.app.t2k.config.TwitterToKafkaConfig;
 import com.app.t2k.service.init.StreamInitializer;
 import com.app.t2k.service.runner.StreamRunner;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-
-import java.util.Arrays;
 
 /**
  * @author t0k02w6 on 19/06/21

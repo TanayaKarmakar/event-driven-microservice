@@ -210,7 +210,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:332)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
-	at com.app.t2k.config.server.ConfigServer.main(ConfigServer.java:15)
+	at ConfigServer.main(ConfigServer.java:15)
 Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15]
 	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
 	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
@@ -264,7 +264,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:332)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
-	at com.app.t2k.config.server.ConfigServer.main(ConfigServer.java:15)
+	at ConfigServer.main(ConfigServer.java:15)
 Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15]
 	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
 	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
@@ -324,7 +324,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:332)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
-	at com.app.t2k.config.server.ConfigServer.main(ConfigServer.java:15)
+	at ConfigServer.main(ConfigServer.java:15)
 Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15]
 	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
 	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
@@ -378,7 +378,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:332)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
-	at com.app.t2k.config.server.ConfigServer.main(ConfigServer.java:15)
+	at ConfigServer.main(ConfigServer.java:15)
 Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15]
 	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
 	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
@@ -438,7 +438,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:332)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
-	at com.app.t2k.config.server.ConfigServer.main(ConfigServer.java:15)
+	at ConfigServer.main(ConfigServer.java:15)
 Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15]
 	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
 	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
@@ -492,7 +492,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:332)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
-	at com.app.t2k.config.server.ConfigServer.main(ConfigServer.java:15)
+	at ConfigServer.main(ConfigServer.java:15)
 Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15]
 	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
 	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)

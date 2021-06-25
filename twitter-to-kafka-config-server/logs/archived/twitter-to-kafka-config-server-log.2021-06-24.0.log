@@ -107,7 +107,7 @@ java.lang.IllegalStateException: Error processing condition on org.springframewo
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
-	at com.app.t2k.config.server.ConfigServer.main(ConfigServer.java:15)
+	at ConfigServer.main(ConfigServer.java:15)
 Caused by: java.util.NoSuchElementException: No value bound
 	at org.springframework.boot.context.properties.bind.BindResult.get(BindResult.java:55)
 	at org.springframework.cloud.config.server.composite.CompositeUtils.getCompositeTypeList(CompositeUtils.java:51)
@@ -151,7 +151,7 @@ org.eclipse.jgit.api.errors.TransportException: https://github.com/TanayaKarmaka
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
-	at com.app.t2k.config.server.ConfigServer.main(ConfigServer.java:15)
+	at ConfigServer.main(ConfigServer.java:15)
 Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/TanayaKarmakar/twitter-to-kafka-config-repo: Secure connection to https://github.com/TanayaKarmakar/twitter-to-kafka-config-repo could not be stablished because of SSL problems
 	at org.eclipse.jgit.transport.TransportHttp.handleSslFailure(TransportHttp.java:632)
 	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:583)
@@ -234,7 +234,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
-	at com.app.t2k.config.server.ConfigServer.main(ConfigServer.java:15)
+	at ConfigServer.main(ConfigServer.java:15)
 Caused by: org.eclipse.jgit.api.errors.TransportException: https://github.com/TanayaKarmakar/twitter-to-kafka-config-repo: Secure connection to https://github.com/TanayaKarmakar/twitter-to-kafka-config-repo could not be stablished because of SSL problems
 	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:254)
 	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:306)
@@ -339,7 +339,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
-	at com.app.t2k.config.server.ConfigServer.main(ConfigServer.java:15)
+	at ConfigServer.main(ConfigServer.java:15)
 Caused by: org.eclipse.jgit.api.errors.RefNotFoundException: Ref master cannot be resolved
 	at org.eclipse.jgit.api.CheckoutCommand.call(CheckoutCommand.java:254)
 	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.checkout(JGitEnvironmentRepository.java:422)

@@ -64,7 +64,7 @@ https://t.co/Mvu76bGZcR 🎥 https://t.co/1nZU3C2FZC
 2021-06-20 20:09:48 [SpringApplicationShutdownHook] INFO  c.a.t.r.i.TwitterKafkaStreamRunner - Closing twitter stream
 2021-06-20 21:10:11 [main] INFO  c.a.t.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.11 on Tanayas-MacBook-Pro.local with PID 95832 (/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes started by t0k02w6 in /Users/t0k02w6/Documents/personal/Java/event-driven-microservice)
 2021-06-20 21:10:11 [main] INFO  c.a.t.s.TwitterToKafkaApplication - No active profile set, falling back to default profiles: default
-2021-06-20 21:10:12 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tweetLoader' defined in file [/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes/com/app/t2k/service/bootstrap/TweetLoader.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.app.t2k.config.TwitterToKafkaConfig' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2021-06-20 21:10:12 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tweetLoader' defined in file [/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes/com/app/t2k/service/bootstrap/TweetLoader.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'TwitterToKafkaConfig' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
 2021-06-20 21:10:12 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
@@ -76,12 +76,12 @@ APPLICATION FAILED TO START
 
 Description:
 
-Parameter 0 of constructor in com.app.t2k.service.bootstrap.TweetLoader required a bean of type 'com.app.t2k.config.TwitterToKafkaConfig' that could not be found.
+Parameter 0 of constructor in TweetLoader required a bean of type 'TwitterToKafkaConfig' that could not be found.
 
 
 Action:
 
-Consider defining a bean of type 'com.app.t2k.config.TwitterToKafkaConfig' in your configuration.
+Consider defining a bean of type 'TwitterToKafkaConfig' in your configuration.
 
 2021-06-20 21:16:02 [main] INFO  c.a.t.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.11 on Tanayas-MacBook-Pro.local with PID 96446 (/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes started by t0k02w6 in /Users/t0k02w6/Documents/personal/Java/event-driven-microservice)
 2021-06-20 21:16:02 [main] INFO  c.a.t.s.TwitterToKafkaApplication - No active profile set, falling back to default profiles: default

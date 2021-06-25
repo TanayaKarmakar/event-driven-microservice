@@ -22,7 +22,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
-	at com.app.t2k.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:11)
+	at TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:11)
 Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
 	at org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory.<clinit>(AbstractAspectJAdvisorFactory.java:62)
 	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.initBeanFactory(AnnotationAwareAspectJAutoProxyCreator.java:82)
@@ -60,7 +60,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
-	at com.app.t2k.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:11)
+	at TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:11)
 Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
 	at org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory.<clinit>(AbstractAspectJAdvisorFactory.java:62)
 	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.initBeanFactory(AnnotationAwareAspectJAutoProxyCreator.java:82)
@@ -98,7 +98,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
-	at com.app.t2k.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:11)
+	at TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:11)
 Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
 	at org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory.<clinit>(AbstractAspectJAdvisorFactory.java:62)
 	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.initBeanFactory(AnnotationAwareAspectJAutoProxyCreator.java:82)
@@ -194,7 +194,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Parameter 3 of constructor in com.app.t2k.kafka.admin.config.client.KafkaAdminClient required a bean of type 'org.springframework.retry.support.RetryTemplate' that could not be found.
+Parameter 3 of constructor in KafkaAdminClient required a bean of type 'org.springframework.retry.support.RetryTemplate' that could not be found.
 
 
 Action:
@@ -283,7 +283,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Parameter 3 of constructor in com.app.t2k.kafka.admin.config.client.KafkaAdminClient required a bean of type 'org.springframework.retry.support.RetryTemplate' that could not be found.
+Parameter 3 of constructor in KafkaAdminClient required a bean of type 'org.springframework.retry.support.RetryTemplate' that could not be found.
 
 
 Action:
@@ -359,17 +359,17 @@ Consider defining a bean of type 'org.springframework.retry.support.RetryTemplat
 2021-06-22 07:59:14 [main] INFO  c.a.t.k.a.c.client.KafkaAdminClient - Reading kafka topics [twitter-topic], attempts0
 2021-06-22 07:59:14 [main] ERROR c.a.t.s.i.i.KafkaStreamInitializer - An error occurred 
 java.lang.NullPointerException: null
-	at com.app.t2k.kafka.admin.config.client.KafkaAdminClient.sleep(KafkaAdminClient.java:93)
-	at com.app.t2k.kafka.admin.config.client.KafkaAdminClient.checkTopicsCreated(KafkaAdminClient.java:58)
-	at com.app.t2k.kafka.admin.config.client.KafkaAdminClient.createTopics(KafkaAdminClient.java:46)
-	at com.app.t2k.service.init.impl.KafkaStreamInitializer.init(KafkaStreamInitializer.java:24)
-	at com.app.t2k.service.bootstrap.TweetLoader.run(TweetLoader.java:30)
+	at KafkaAdminClient.sleep(KafkaAdminClient.java:93)
+	at KafkaAdminClient.checkTopicsCreated(KafkaAdminClient.java:58)
+	at KafkaAdminClient.createTopics(KafkaAdminClient.java:46)
+	at KafkaStreamInitializer.init(KafkaStreamInitializer.java:24)
+	at TweetLoader.run(TweetLoader.java:30)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
 	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
-	at com.app.t2k.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:11)
+	at TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:11)
 2021-06-22 07:59:14 [main] INFO  c.a.t.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords: [Java, Microservices, Spring, Kafka, ElasticSearch]
 2021-06-22 07:59:14 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
 2021-06-22 07:59:19 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
@@ -618,16 +618,16 @@ Immun…
 2021-06-22 08:04:08 [main] INFO  c.a.t.k.a.c.client.KafkaAdminClient - Reading kafka topics [twitter-topic], attempts0
 2021-06-22 08:04:08 [main] ERROR c.a.t.s.i.i.KafkaStreamInitializer - An error occurred 
 java.lang.NullPointerException: null
-	at com.app.t2k.kafka.admin.config.client.KafkaAdminClient.sleep(KafkaAdminClient.java:93)
-	at com.app.t2k.kafka.admin.config.client.KafkaAdminClient.checkSchemaRegistry(KafkaAdminClient.java:73)
-	at com.app.t2k.service.init.impl.KafkaStreamInitializer.init(KafkaStreamInitializer.java:25)
-	at com.app.t2k.service.bootstrap.TweetLoader.run(TweetLoader.java:30)
+	at KafkaAdminClient.sleep(KafkaAdminClient.java:93)
+	at KafkaAdminClient.checkSchemaRegistry(KafkaAdminClient.java:73)
+	at KafkaStreamInitializer.init(KafkaStreamInitializer.java:25)
+	at TweetLoader.run(TweetLoader.java:30)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
 	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
-	at com.app.t2k.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:11)
+	at TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:11)
 2021-06-22 08:04:08 [main] INFO  c.a.t.s.r.impl.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords: [Java, Microservices, Spring, Kafka, ElasticSearch]
 2021-06-22 08:04:08 [pool-3-thread-1] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: pulvinar ulticies amet dolor porttitor Kafka dolor Maecenas sit
 2021-06-22 08:04:08 [pool-3-thread-1] INFO  c.a.t.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 3838581813212385279, "id": 4946411535852513654, "text": "pulvinar ulticies amet dolor porttitor Kafka dolor Maecenas sit", "createdAt": "1624329248000"}' to topic = 'twitter-topic'

@@ -1,7 +1,7 @@
 package com.app.t2k.service.init.impl;
 
-import com.app.t2k.config.KafkaConfigData;
-import com.app.t2k.kafka.admin.config.client.KafkaAdminClient;
+import com.app.t2k.kafka.to.elastic.config.KafkaConfigData;
+import com.app.t2k.kafka.to.elastic.kafka.admin.config.client.KafkaAdminClient;
 import com.app.t2k.service.init.StreamInitializer;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
