@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>twitter-to-kafka-config-server</artifactId>
+    <artifactId>kafka-to-elastic-service</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -17,16 +17,29 @@
     </properties>
 
     <dependencies>
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.boot</groupId>-->
-<!--            <artifactId>spring-boot-starter-security</artifactId>-->
-<!--        </dependency>-->
-
         <dependency>
             <groupId>com.app</groupId>
-            <artifactId>twitter-to-kafka-common-config</artifactId>
+            <artifactId>kafka-consumer</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.app</groupId>
+            <artifactId>kafka-admin</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.app</groupId>
+            <artifactId>kafka-model</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 </project>

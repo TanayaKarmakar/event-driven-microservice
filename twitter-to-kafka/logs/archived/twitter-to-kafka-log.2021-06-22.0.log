@@ -1,0 +1,839 @@
+2021-06-22 07:39:42 [main] INFO  c.app.t2k.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.11 on Tanayas-MacBook-Pro.local with PID 3496 (/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes started by t0k02w6 in /Users/t0k02w6/Documents/personal/Java/event-driven-microservice)
+2021-06-22 07:39:42 [main] INFO  c.app.t2k.TwitterToKafkaApplication - No active profile set, falling back to default profiles: default
+2021-06-22 07:39:42 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-06-22 07:39:42 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+2021-06-22 07:39:42 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-06-22 07:39:42 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:610)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:258)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:64)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.app.t2k.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:11)
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+	at org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory.<clinit>(AbstractAspectJAdvisorFactory.java:62)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.initBeanFactory(AnnotationAwareAspectJAutoProxyCreator.java:82)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.setBeanFactory(AbstractAdvisorAutoProxyCreator.java:65)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeAwareMethods(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1773)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	... 15 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.annotation.Pointcut
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 21 common frames omitted
+2021-06-22 07:43:02 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-06-22 07:43:02 [main] INFO  c.app.t2k.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.11 on Tanayas-MacBook-Pro.local with PID 3780 (/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes started by t0k02w6 in /Users/t0k02w6/Documents/personal/Java/event-driven-microservice)
+2021-06-22 07:43:02 [main] INFO  c.app.t2k.TwitterToKafkaApplication - No active profile set, falling back to default profiles: default
+2021-06-22 07:43:02 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+2021-06-22 07:43:02 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-06-22 07:43:02 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:610)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:258)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:64)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.app.t2k.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:11)
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+	at org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory.<clinit>(AbstractAspectJAdvisorFactory.java:62)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.initBeanFactory(AnnotationAwareAspectJAutoProxyCreator.java:82)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.setBeanFactory(AbstractAdvisorAutoProxyCreator.java:65)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeAwareMethods(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1773)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	... 15 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.annotation.Pointcut
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 21 common frames omitted
+2021-06-22 07:52:45 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-06-22 07:52:45 [main] INFO  c.app.t2k.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.11 on Tanayas-MacBook-Pro.local with PID 5029 (/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes started by t0k02w6 in /Users/t0k02w6/Documents/personal/Java/event-driven-microservice)
+2021-06-22 07:52:45 [main] INFO  c.app.t2k.TwitterToKafkaApplication - No active profile set, falling back to default profiles: default
+2021-06-22 07:52:45 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+2021-06-22 07:52:45 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-06-22 07:52:45 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:610)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:258)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:64)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.app.t2k.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:11)
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+	at org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory.<clinit>(AbstractAspectJAdvisorFactory.java:62)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.initBeanFactory(AnnotationAwareAspectJAutoProxyCreator.java:82)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.setBeanFactory(AbstractAdvisorAutoProxyCreator.java:65)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeAwareMethods(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1773)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	... 15 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.annotation.Pointcut
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 21 common frames omitted
+2021-06-22 07:53:25 [main] INFO  c.app.t2k.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.11 on Tanayas-MacBook-Pro.local with PID 6762 (/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes started by t0k02w6 in /Users/t0k02w6/Documents/personal/Java/event-driven-microservice)
+2021-06-22 07:53:25 [main] INFO  c.app.t2k.TwitterToKafkaApplication - No active profile set, falling back to default profiles: default
+2021-06-22 07:53:25 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-06-22 07:53:26 [main] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	bootstrap.servers = [localhost:19092, localhost:29092, localhost:39092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2021-06-22 07:53:26 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 2.7.1
+2021-06-22 07:53:26 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 61dbce85d0d41457
+2021-06-22 07:53:26 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1624328606473
+2021-06-22 07:53:26 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tweetLoader' defined in file [/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes/com/app/t2k/service/bootstrap/TweetLoader.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'kafkaStreamInitializer' defined in file [/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes/com/app/t2k/service/init/impl/KafkaStreamInitializer.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'kafkaAdminClient' defined in file [/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/kafka/kafka-admin/target/classes/com/app/t2k/kafka/admin/config/client/KafkaAdminClient.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.retry.support.RetryTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2021-06-22 07:53:26 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2021-06-22 07:53:26 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.a.i.AdminMetadataManager - [AdminClient clientId=adminclient-1] Metadata update failed
+org.apache.kafka.common.errors.TimeoutException: Call(callName=fetchMetadata, deadlineMs=1624328636477, tries=1, nextAllowedTryMs=-9223372036854775709) timed out at 9223372036854775807 after 1 attempt(s)
+Caused by: org.apache.kafka.common.errors.TimeoutException: Timed out waiting to send the call. Call: fetchMetadata
+2021-06-22 07:53:26 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2021-06-22 07:53:26 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2021-06-22 07:53:26 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2021-06-22 07:53:26 [main] INFO  c.a.t.k.p.c.s.i.TwitterKafkaProducer - Closing kafka Producer !
+2021-06-22 07:53:26 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-06-22 07:53:26 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 3 of constructor in com.app.t2k.kafka.admin.config.client.KafkaAdminClient required a bean of type 'org.springframework.retry.support.RetryTemplate' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.retry.support.RetryTemplate' in your configuration.
+
+2021-06-22 07:57:19 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-06-22 07:57:19 [main] INFO  c.app.t2k.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.11 on Tanayas-MacBook-Pro.local with PID 7258 (/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes started by t0k02w6 in /Users/t0k02w6/Documents/personal/Java/event-driven-microservice)
+2021-06-22 07:57:19 [main] INFO  c.app.t2k.TwitterToKafkaApplication - No active profile set, falling back to default profiles: default
+2021-06-22 07:57:19 [main] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	bootstrap.servers = [localhost:19092, localhost:29092, localhost:39092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2021-06-22 07:57:19 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 2.7.1
+2021-06-22 07:57:19 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 61dbce85d0d41457
+2021-06-22 07:57:19 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1624328839828
+2021-06-22 07:57:19 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tweetLoader' defined in file [/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes/com/app/t2k/service/bootstrap/TweetLoader.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'kafkaStreamInitializer' defined in file [/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes/com/app/t2k/service/init/impl/KafkaStreamInitializer.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'kafkaAdminClient' defined in file [/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/kafka/kafka-admin/target/classes/com/app/t2k/kafka/admin/config/client/KafkaAdminClient.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.retry.support.RetryTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2021-06-22 07:57:19 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2021-06-22 07:57:19 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.a.i.AdminMetadataManager - [AdminClient clientId=adminclient-1] Metadata update failed
+org.apache.kafka.common.errors.TimeoutException: Call(callName=fetchMetadata, deadlineMs=1624328869831, tries=1, nextAllowedTryMs=-9223372036854775709) timed out at 9223372036854775807 after 1 attempt(s)
+Caused by: org.apache.kafka.common.errors.TimeoutException: Timed out waiting to send the call. Call: fetchMetadata
+2021-06-22 07:57:19 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2021-06-22 07:57:19 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2021-06-22 07:57:19 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2021-06-22 07:57:19 [main] INFO  c.a.t.k.p.c.s.i.TwitterKafkaProducer - Closing kafka Producer !
+2021-06-22 07:57:19 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-06-22 07:57:19 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 3 of constructor in com.app.t2k.kafka.admin.config.client.KafkaAdminClient required a bean of type 'org.springframework.retry.support.RetryTemplate' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.retry.support.RetryTemplate' in your configuration.
+
+2021-06-22 07:59:13 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-06-22 07:59:13 [main] INFO  c.app.t2k.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.11 on Tanayas-MacBook-Pro.local with PID 7453 (/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes started by t0k02w6 in /Users/t0k02w6/Documents/personal/Java/event-driven-microservice)
+2021-06-22 07:59:13 [main] INFO  c.app.t2k.TwitterToKafkaApplication - No active profile set, falling back to default profiles: default
+2021-06-22 07:59:13 [main] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	bootstrap.servers = [localhost:19092, localhost:29092, localhost:39092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2021-06-22 07:59:13 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 2.7.1
+2021-06-22 07:59:13 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 61dbce85d0d41457
+2021-06-22 07:59:13 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1624328953812
+2021-06-22 07:59:14 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8080
+2021-06-22 07:59:14 [main] INFO  c.app.t2k.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 1.419 seconds (JVM running for 2.008)
+2021-06-22 07:59:14 [main] INFO  c.a.t.service.bootstrap.TweetLoader - Application starts
+2021-06-22 07:59:14 [main] INFO  c.a.t.k.a.c.client.KafkaAdminClient - Creating 1 topic(s), attempts 0
+2021-06-22 07:59:14 [main] INFO  c.a.t.k.a.c.client.KafkaAdminClient - Reading kafka topics [twitter-topic], attempts0
+2021-06-22 07:59:14 [main] ERROR c.a.t.s.i.i.KafkaStreamInitializer - An error occurred 
+java.lang.NullPointerException: null
+	at com.app.t2k.kafka.admin.config.client.KafkaAdminClient.sleep(KafkaAdminClient.java:93)
+	at com.app.t2k.kafka.admin.config.client.KafkaAdminClient.checkTopicsCreated(KafkaAdminClient.java:58)
+	at com.app.t2k.kafka.admin.config.client.KafkaAdminClient.createTopics(KafkaAdminClient.java:46)
+	at com.app.t2k.service.init.impl.KafkaStreamInitializer.init(KafkaStreamInitializer.java:24)
+	at com.app.t2k.service.bootstrap.TweetLoader.run(TweetLoader.java:30)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.app.t2k.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:11)
+2021-06-22 07:59:14 [main] INFO  c.a.t.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords: [Java, Microservices, Spring, Kafka, ElasticSearch]
+2021-06-22 07:59:14 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2021-06-22 07:59:19 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2021-06-22 07:59:19 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+2021-06-22 07:59:19 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: Instagram Style: Jordana Brewster wears Atelier Versace Fall 2020 & Anna Sawai in Brandon Maxwell Spring 2021 at the F9: The Fast Saga LA Premiere https://t.co/lLQz0LGv2J
+2021-06-22 07:59:19 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 237958347, "id": 1407163742614396937, "text": "Instagram Style: Jordana Brewster wears Atelier Versace Fall 2020 & Anna Sawai in Brandon Maxwell Spring 2021 at the F9: The Fast Saga LA Premiere https://t.co/lLQz0LGv2J", "createdAt": "1624328954000"}' to topic = 'twitter-topic'
+2021-06-22 07:59:19 [Twitter4J Async Dispatcher[0]] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 1638400
+	bootstrap.servers = [localhost:19092, localhost:29092, localhost:39092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	internal.auto.downgrade.txn.commit = true
+	key.serializer = class org.apache.kafka.common.serialization.LongSerializer
+	linger.ms = 5
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 60000
+	retries = 5
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class io.confluent.kafka.serializers.KafkaAvroSerializer
+
+2021-06-22 07:59:19 [Twitter4J Async Dispatcher[0]] INFO  i.c.k.s.KafkaAvroSerializerConfig - KafkaAvroSerializerConfig values: 
+	bearer.auth.token = [hidden]
+	proxy.port = -1
+	schema.reflection = false
+	auto.register.schemas = true
+	max.schemas.per.subject = 1000
+	basic.auth.credentials.source = URL
+	value.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+	schema.registry.url = [http://localhost:8081]
+	basic.auth.user.info = [hidden]
+	proxy.host = 
+	schema.registry.basic.auth.user.info = [hidden]
+	bearer.auth.credentials.source = STATIC_TOKEN
+	key.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+
+2021-06-22 07:59:19 [Twitter4J Async Dispatcher[0]] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 2.7.1
+2021-06-22 07:59:19 [Twitter4J Async Dispatcher[0]] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 61dbce85d0d41457
+2021-06-22 07:59:19 [Twitter4J Async Dispatcher[0]] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1624328959520
+2021-06-22 07:59:19 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Error while fetching metadata with correlation id 2 : {twitter-topic=LEADER_NOT_AVAILABLE}
+2021-06-22 07:59:19 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Cluster ID: d-10iFRMTmqzv7Y4_4NXPg
+2021-06-22 07:59:20 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Error while fetching metadata with correlation id 5 : {twitter-topic=LEADER_NOT_AVAILABLE}
+2021-06-22 07:59:21 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @BTSChartDailyx: 📊"Butter" has now surpassed "Spring Day" and is now @BTS_twt's 7th most streamed song on Spotify 🌎 https://t.co/2xjnTxH…
+2021-06-22 07:59:21 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 1123848495776108545, "id": 1407163744384282658, "text": "RT @BTSChartDailyx: 📊\"Butter\" has now surpassed \"Spring Day\" and is now @BTS_twt's 7th most streamed song on Spotify 🌎 https://t.co/2xjnTxH\u2026", "createdAt": "1624328955000"}' to topic = 'twitter-topic'
+2021-06-22 07:59:22 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @MAYASSIGNMENT1: Dm for help;
+Genetics
+Medical microbiology
+Pharmacology
+Physiology
+Biochemistry
+Anatomy
+Neuroscience
+Parasitology
+Immun…
+2021-06-22 07:59:22 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 828151908971925509, "id": 1407163756631625729, "text": "RT @MAYASSIGNMENT1: Dm for help;\nGenetics\nMedical microbiology\nPharmacology\nPhysiology\nBiochemistry\nAnatomy\nNeuroscience\nParasitology\nImmun\u2026", "createdAt": "1624328958000"}' to topic = 'twitter-topic'
+2021-06-22 07:59:24 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: @DrakeRelays
+2021-06-22 07:59:24 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 533583473, "id": 1407163765016064018, "text": "@DrakeRelays", "createdAt": "1624328960000"}' to topic = 'twitter-topic'
+2021-06-22 07:59:26 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @diorangxl: A-Cold-Wall Spring 2022 Menswear https://t.co/invDfBTmxZ
+2021-06-22 07:59:26 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 342947461, "id": 1407163773115322373, "text": "RT @diorangxl: A-Cold-Wall Spring 2022 Menswear https://t.co/invDfBTmxZ", "createdAt": "1624328962000"}' to topic = 'twitter-topic'
+2021-06-22 07:59:27 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @hitagipilled: evangelion should have been gatekept the amount of god awful takes i've seen this spring hurt so bad
+2021-06-22 07:59:27 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 1353192186171564033, "id": 1407163774700765186, "text": "RT @hitagipilled: evangelion should have been gatekept the amount of god awful takes i've seen this spring hurt so bad", "createdAt": "1624328962000"}' to topic = 'twitter-topic'
+2021-06-22 07:59:27 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: @Henness87 @robertjlundberg @Truthsp73957317 @MsVernestyne @Gemini21BLM @Scotswoman06 @erin_hartigan4 @nathaliejacoby1 @dismantlegop @gabby_UCMaroon @ektaka @PolarisBlurs @FUBARPATTY @ProinMN @Login_Prompt @mem_reddog @La_Bete_humaine @CowboysBabyGurl @Juliethewarrior @smurfysax @ChasRuth3 @MsJR88 @PaulDereume @TumbleDrunk @AgapeLove28 @Mary1Kathy @My_Poker_Face_ @New_AllyO @FairlyNiceLady @Johanvanderslam @FoodieHiking @AmlongJudyann Average high temp for this area is in mid-70s about a 25 degree difference   Supposed to drop into the mid-80s tomorrow and be back up to around 100 again by Thursday  Only had about 1/3rd of normal rainfall during spring   Vegetation is drying out more than a month early
+2021-06-22 07:59:27 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 962211528773484544, "id": 1407163775942225933, "text": "@Henness87 @robertjlundberg @Truthsp73957317 @MsVernestyne @Gemini21BLM @Scotswoman06 @erin_hartigan4 @nathaliejacoby1 @dismantlegop @gabby_UCMaroon @ektaka @PolarisBlurs @FUBARPATTY @ProinMN @Login_Prompt @mem_reddog @La_Bete_humaine @CowboysBabyGurl @Juliethewarrior @smurfysax @ChasRuth3 @MsJR88 @PaulDereume @TumbleDrunk @AgapeLove28 @Mary1Kathy @My_Poker_Face_ @New_AllyO @FairlyNiceLady @Johanvanderslam @FoodieHiking @AmlongJudyann Average high temp for this area is in mid-70s about a 25 degree difference   Supposed to drop into the mid-80s tomorrow and be back up to around 100 again by Thursday  Only had about 1/3rd of normal rainfall during spring   Vegetation is drying out more than a month early", "createdAt": "1624328962000"}' to topic = 'twitter-topic'
+2021-06-22 07:59:28 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @MAYASSIGNMENT1: Dm for help;
+Genetics
+Medical microbiology
+Pharmacology
+Physiology
+Biochemistry
+Anatomy
+Neuroscience
+Parasitology
+Immun…
+2021-06-22 07:59:28 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 1278273884903505921, "id": 1407163779901648929, "text": "RT @MAYASSIGNMENT1: Dm for help;\nGenetics\nMedical microbiology\nPharmacology\nPhysiology\nBiochemistry\nAnatomy\nNeuroscience\nParasitology\nImmun\u2026", "createdAt": "1624328963000"}' to topic = 'twitter-topic'
+2021-06-22 07:59:28 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @koorenic: — past the edge of cold winter, until the (SPRING DAY) comes again https://t.co/k0PYypoyj7
+2021-06-22 07:59:28 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 1287650264091176964, "id": 1407163782019813377, "text": "RT @koorenic: \u2014 past the edge of cold winter, until the (SPRING DAY) comes again https://t.co/k0PYypoyj7", "createdAt": "1624328964000"}' to topic = 'twitter-topic'
+2021-06-22 07:59:29 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @SPRiNGNEWS_TH: ราชวิทยาลัยอายุรแพทย์ฯ ห่วงนโนยายเปิดประเทศใน 120 วัน เตือนรัฐให้น้ำหนักความสำคัญ "มาตรการควบคุมโรค" มากกว่าการกระตุ้นเศ…
+2021-06-22 07:59:29 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 1923256448, "id": 1407163783844294660, "text": "RT @SPRiNGNEWS_TH: ราชวิทยาลัยอายุรแพทย์ฯ ห่วงนโนยายเปิดประเทศใน 120 วัน เตือนรัฐให้น้ำหนักความสำคัญ \"มาตรการควบคุมโรค\" มากกว่าการกระตุ้นเศ\u2026", "createdAt": "1624328964000"}' to topic = 'twitter-topic'
+2021-06-22 07:59:30 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @MAYASSIGNMENT1: Dm for help;
+Genetics
+Medical microbiology
+Pharmacology
+Physiology
+Biochemistry
+Anatomy
+Neuroscience
+Parasitology
+Immun…
+2021-06-22 07:59:30 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 1127829883013361665, "id": 1407163787313090562, "text": "RT @MAYASSIGNMENT1: Dm for help;\nGenetics\nMedical microbiology\nPharmacology\nPhysiology\nBiochemistry\nAnatomy\nNeuroscience\nParasitology\nImmun\u2026", "createdAt": "1624328965000"}' to topic = 'twitter-topic'
+2021-06-22 07:59:30 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @JTheretohelp1: Maybe we can crack into the single digits tomorrow.
+
+If we get that “spring low” I wouldn’t be shocked to see it. 
+
+At t…
+2021-06-22 07:59:30 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 4160950469, "id": 1407163788554612738, "text": "RT @JTheretohelp1: Maybe we can crack into the single digits tomorrow.\n\nIf we get that \u201Cspring low\u201D I wouldn\u2019t be shocked to see it. \n\nAt t\u2026", "createdAt": "1624328965000"}' to topic = 'twitter-topic'
+2021-06-22 07:59:31 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: Civilians in ThayatChaung Township, prayed for the fallen heroes of Spring Revolution and for the failure of dictatorship in the early morning #WhatsHappeningInMyanmar #June22Coup https://t.co/jU1gErChaw
+2021-06-22 07:59:31 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 1356593863889047554, "id": 1407163790995644416, "text": "Civilians in ThayatChaung Township, prayed for the fallen heroes of Spring Revolution and for the failure of dictatorship in the early morning #WhatsHappeningInMyanmar #June22Coup https://t.co/jU1gErChaw", "createdAt": "1624328966000"}' to topic = 'twitter-topic'
+2021-06-22 07:59:31 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @MAYASSIGNMENT1: Dm for help;
+Genetics
+Medical microbiology
+Pharmacology
+Physiology
+Biochemistry
+Anatomy
+Neuroscience
+Parasitology
+Immun…
+2021-06-22 07:59:31 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 1386109685741260803, "id": 1407163792304361483, "text": "RT @MAYASSIGNMENT1: Dm for help;\nGenetics\nMedical microbiology\nPharmacology\nPhysiology\nBiochemistry\nAnatomy\nNeuroscience\nParasitology\nImmun\u2026", "createdAt": "1624328966000"}' to topic = 'twitter-topic'
+2021-06-22 07:59:34 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @I_Am_Spring_Day: *Hiss*
+2021-06-22 07:59:34 [Twitter4J Async Dispatcher[0]] INFO  c.a.t.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 740461879189999616, "id": 1407163808020197377, "text": "RT @I_Am_Spring_Day: *Hiss*", "createdAt": "1624328970000"}' to topic = 'twitter-topic'
+2021-06-22 07:59:35 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2021-06-22 07:59:35 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2021-06-22 07:59:35 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2021-06-22 07:59:35 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2021-06-22 07:59:35 [SpringApplicationShutdownHook] INFO  c.a.t.s.r.i.TwitterKafkaStreamRunner - Closing twitter stream
+2021-06-22 07:59:36 [SpringApplicationShutdownHook] INFO  c.a.t.k.p.c.s.i.TwitterKafkaProducer - Closing kafka Producer !
+2021-06-22 07:59:36 [SpringApplicationShutdownHook] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2021-06-22 07:59:36 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2021-06-22 07:59:36 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2021-06-22 07:59:36 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2021-06-22 07:59:36 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.producer for producer-1 unregistered
+2021-06-22 08:04:06 [main] INFO  c.app.t2k.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 11.0.11 on Tanayas-MacBook-Pro.local with PID 9271 (/Users/t0k02w6/Documents/personal/Java/event-driven-microservice/twitter-to-kafka/target/classes started by t0k02w6 in /Users/t0k02w6/Documents/personal/Java/event-driven-microservice)
+2021-06-22 08:04:06 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-06-22 08:04:06 [main] INFO  c.app.t2k.TwitterToKafkaApplication - No active profile set, falling back to default profiles: default
+2021-06-22 08:04:07 [main] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	bootstrap.servers = [localhost:19092, localhost:29092, localhost:39092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2021-06-22 08:04:07 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 2.7.1
+2021-06-22 08:04:07 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 61dbce85d0d41457
+2021-06-22 08:04:07 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1624329247620
+2021-06-22 08:04:08 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8080
+2021-06-22 08:04:08 [main] INFO  c.app.t2k.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 1.755 seconds (JVM running for 2.622)
+2021-06-22 08:04:08 [main] INFO  c.a.t.service.bootstrap.TweetLoader - Application starts
+2021-06-22 08:04:08 [main] INFO  c.a.t.k.a.c.client.KafkaAdminClient - Creating 1 topic(s), attempts 0
+2021-06-22 08:04:08 [main] INFO  c.a.t.k.a.c.client.KafkaAdminClient - Reading kafka topics [twitter-topic], attempts0
+2021-06-22 08:04:08 [main] ERROR c.a.t.s.i.i.KafkaStreamInitializer - An error occurred 
+java.lang.NullPointerException: null
+	at com.app.t2k.kafka.admin.config.client.KafkaAdminClient.sleep(KafkaAdminClient.java:93)
+	at com.app.t2k.kafka.admin.config.client.KafkaAdminClient.checkSchemaRegistry(KafkaAdminClient.java:73)
+	at com.app.t2k.service.init.impl.KafkaStreamInitializer.init(KafkaStreamInitializer.java:25)
+	at com.app.t2k.service.bootstrap.TweetLoader.run(TweetLoader.java:30)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.app.t2k.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:11)
+2021-06-22 08:04:08 [main] INFO  c.a.t.s.r.impl.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords: [Java, Microservices, Spring, Kafka, ElasticSearch]
+2021-06-22 08:04:08 [pool-3-thread-1] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: pulvinar ulticies amet dolor porttitor Kafka dolor Maecenas sit
+2021-06-22 08:04:08 [pool-3-thread-1] INFO  c.a.t.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 3838581813212385279, "id": 4946411535852513654, "text": "pulvinar ulticies amet dolor porttitor Kafka dolor Maecenas sit", "createdAt": "1624329248000"}' to topic = 'twitter-topic'
+2021-06-22 08:04:08 [pool-3-thread-1] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 1638400
+	bootstrap.servers = [localhost:19092, localhost:29092, localhost:39092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	internal.auto.downgrade.txn.commit = true
+	key.serializer = class org.apache.kafka.common.serialization.LongSerializer
+	linger.ms = 5
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 60000
+	retries = 5
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class io.confluent.kafka.serializers.KafkaAvroSerializer
+
+2021-06-22 08:04:08 [pool-3-thread-1] INFO  i.c.k.s.KafkaAvroSerializerConfig - KafkaAvroSerializerConfig values: 
+	bearer.auth.token = [hidden]
+	proxy.port = -1
+	schema.reflection = false
+	auto.register.schemas = true
+	max.schemas.per.subject = 1000
+	basic.auth.credentials.source = URL
+	value.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+	schema.registry.url = [http://localhost:8081]
+	basic.auth.user.info = [hidden]
+	proxy.host = 
+	schema.registry.basic.auth.user.info = [hidden]
+	bearer.auth.credentials.source = STATIC_TOKEN
+	key.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+
+2021-06-22 08:04:08 [pool-3-thread-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 2.7.1
+2021-06-22 08:04:08 [pool-3-thread-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 61dbce85d0d41457
+2021-06-22 08:04:08 [pool-3-thread-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1624329248904
+2021-06-22 08:04:08 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Cluster ID: d-10iFRMTmqzv7Y4_4NXPg
+2021-06-22 08:04:19 [pool-3-thread-1] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: sed posuere pulvinar Fusce adipiscing amet ipsum malesuada ElasticSearch sit pulvinar purus dolor amet libero adipiscing
+2021-06-22 08:04:19 [pool-3-thread-1] INFO  c.a.t.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 8396751760186534917, "id": 3488952713585535821, "text": "sed posuere pulvinar Fusce adipiscing amet ipsum malesuada ElasticSearch sit pulvinar purus dolor amet libero adipiscing", "createdAt": "1624329259000"}' to topic = 'twitter-topic'
+2021-06-22 08:04:29 [pool-3-thread-1] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: libero conque ipsum posuere lectus purus ElasticSearch sit sed ulticies amet
+2021-06-22 08:04:29 [pool-3-thread-1] INFO  c.a.t.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 7863698945961423600, "id": 1899859526405850540, "text": "libero conque ipsum posuere lectus purus ElasticSearch sit sed ulticies amet", "createdAt": "1624329269000"}' to topic = 'twitter-topic'
+2021-06-22 08:04:39 [pool-3-thread-1] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: sit conque porttitor posuere conque amet massa ipsum Microservices consectetuer libero libero magna Maecenas dolor
+2021-06-22 08:04:39 [pool-3-thread-1] INFO  c.a.t.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 1393464983766762195, "id": 1575053476772739381, "text": "sit conque porttitor posuere conque amet massa ipsum Microservices consectetuer libero libero magna Maecenas dolor", "createdAt": "1624329279000"}' to topic = 'twitter-topic'
+2021-06-22 08:04:49 [pool-3-thread-1] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: magna elit Fusce dolor consectetuer ElasticSearch sed consectetuer malesuada Maecenas
+2021-06-22 08:04:49 [pool-3-thread-1] INFO  c.a.t.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 4532127571607952281, "id": 6812159533656866109, "text": "magna elit Fusce dolor consectetuer ElasticSearch sed consectetuer malesuada Maecenas", "createdAt": "1624329289000"}' to topic = 'twitter-topic'
+2021-06-22 08:04:59 [pool-3-thread-1] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: Maecenas conque massa porttitor Spring purus dolor ipsum
+2021-06-22 08:04:59 [pool-3-thread-1] INFO  c.a.t.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 3626097186271739486, "id": 227076235715156175, "text": "Maecenas conque massa porttitor Spring purus dolor ipsum", "createdAt": "1624329299000"}' to topic = 'twitter-topic'
+2021-06-22 08:05:07 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2021-06-22 08:05:07 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2021-06-22 08:05:07 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2021-06-22 08:05:07 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2021-06-22 08:05:07 [SpringApplicationShutdownHook] INFO  c.a.t.k.p.c.s.i.TwitterKafkaProducer - Closing kafka Producer !
+2021-06-22 08:05:07 [SpringApplicationShutdownHook] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2021-06-22 08:05:07 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2021-06-22 08:05:07 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2021-06-22 08:05:07 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2021-06-22 08:05:07 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.producer for producer-1 unregistered
+2021-06-22 08:05:09 [pool-3-thread-1] INFO  c.a.t.s.l.TwitterKafkaStatusListener - Twitter status with text: dolor elit adipiscing consectetuer conque lectus Microservices sed lectus ipsum massa Fusce
+2021-06-22 08:05:09 [pool-3-thread-1] INFO  c.a.t.k.p.c.s.i.TwitterKafkaProducer - Sending message = '{"userId": 7949937806440045456, "id": 7316177429163776993, "text": "dolor elit adipiscing consectetuer conque lectus Microservices sed lectus ipsum massa Fusce", "createdAt": "1624329309000"}' to topic = 'twitter-topic'
+2021-06-22 08:05:09 [pool-3-thread-1] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 1638400
+	bootstrap.servers = [localhost:19092, localhost:29092, localhost:39092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-2
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	internal.auto.downgrade.txn.commit = true
+	key.serializer = class org.apache.kafka.common.serialization.LongSerializer
+	linger.ms = 5
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 60000
+	retries = 5
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class io.confluent.kafka.serializers.KafkaAvroSerializer
+
+2021-06-22 08:05:09 [pool-3-thread-1] INFO  i.c.k.s.KafkaAvroSerializerConfig - KafkaAvroSerializerConfig values: 
+	bearer.auth.token = [hidden]
+	proxy.port = -1
+	schema.reflection = false
+	auto.register.schemas = true
+	max.schemas.per.subject = 1000
+	basic.auth.credentials.source = URL
+	value.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+	schema.registry.url = [http://localhost:8081]
+	basic.auth.user.info = [hidden]
+	proxy.host = 
+	schema.registry.basic.auth.user.info = [hidden]
+	bearer.auth.credentials.source = STATIC_TOKEN
+	key.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+
+2021-06-22 08:05:09 [pool-3-thread-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 2.7.1
+2021-06-22 08:05:09 [pool-3-thread-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 61dbce85d0d41457
+2021-06-22 08:05:09 [pool-3-thread-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1624329309093
+2021-06-22 08:05:09 [kafka-producer-network-thread | producer-2] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-2] Cluster ID: d-10iFRMTmqzv7Y4_4NXPg

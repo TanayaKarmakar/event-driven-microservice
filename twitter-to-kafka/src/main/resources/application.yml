@@ -1,3 +1,6 @@
+server:
+  port: 8082
+
 twitter-to-kafka:
   twitter-keywords:
     - Java
