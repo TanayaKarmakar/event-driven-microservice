@@ -6,6 +6,8 @@ import com.app.t2k.kafka.to.elastic.kafka.avro.model.TwitterAvroModel;
 import com.app.t2k.kafka.to.elastic.consumer.KafkaConsumer;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.boot.context.event.ApplicationStartedEvent;
+import org.springframework.context.event.EventListener;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.kafka.config.KafkaListenerEndpointRegistry;
 import org.springframework.kafka.support.KafkaHeaders;
@@ -14,6 +16,7 @@ import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Objects;
 
 /**
  * @author t0k02w6 on 24/06/21
@@ -26,6 +29,13 @@ public class TwitterKafkaConsumer implements KafkaConsumer<Long, TwitterAvroMode
     private final KafkaListenerEndpointRegistry kafkaListenerEndpointRegistry;
     private final KafkaAdminClient kafkaAdminClient;
     private final KafkaConfigData kafkaConfigData;
+
+    @EventListener
+    public void onAppStarted(ApplicationStartedEvent event) throws Exception {
+        kafkaAdminClient.checkTopicsCreated();
+        log.info("Topics with name {} is ready for operations: ", kafkaConfigData.getTopicNamesToCreate().toArray());
+        Objects.requireNonNull(kafkaListenerEndpointRegistry.getListenerContainer("twitterTopicListener")).start();
+    }
 
     @Override
     @KafkaListener(id = "twitterTopicListener", topics = "${kafka-config.topic-name}")

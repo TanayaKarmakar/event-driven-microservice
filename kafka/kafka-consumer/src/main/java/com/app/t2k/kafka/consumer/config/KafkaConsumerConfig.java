@@ -1,4 +1,4 @@
-package com.app.t2k.kafka.to.elastic.kafka.consumer.config;
+package com.app.t2k.kafka.consumer.config;
 
 import com.app.t2k.kafka.to.elastic.config.KafkaConfigData;
 import com.app.t2k.kafka.to.elastic.config.KafkaConsumerConfigData;
