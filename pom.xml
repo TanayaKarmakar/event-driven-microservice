@@ -15,6 +15,7 @@
     <description>Demo project for Spring Boot</description>
     <packaging>pom</packaging>
     <properties>
+        <project.version>0.0.1-SNAPSHOT</project.version>
         <java.version>11</java.version>
         <spring.boot.version>2.5.1</spring.boot.version>
         <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
@@ -26,6 +27,7 @@
         <spring.cloud.version>3.0.2</spring.cloud.version>
         <spring.cloud.dependencies.version>2020.0.2</spring.cloud.dependencies.version>
         <kafka-avro-serializer.version>5.5.1</kafka-avro-serializer.version>
+        <elasticsearch.version>7.9.1</elasticsearch.version>
     </properties>
     <modules>
         <module>twitter-to-kafka</module>
@@ -34,6 +36,7 @@
         <module>twitter-to-kafka-common-config</module>
         <module>twitter-to-kafka-config-server</module>
         <module>kafka-to-elastic-service</module>
+        <module>elastic</module>
     </modules>
     <dependencies>
         <dependency>
@@ -44,6 +47,12 @@
     </dependencies>
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+                <version>${spring.boot.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>com.app</groupId>
                 <artifactId>twitter-to-kafka-common-config</artifactId>
@@ -129,6 +138,18 @@
             </dependency>
 
             <dependency>
+                <groupId>org.elasticsearch</groupId>
+                <artifactId>elasticsearch</artifactId>
+                <version>${elasticsearch.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.elasticsearch.client</groupId>
+                <artifactId>elasticsearch-rest-high-level-client</artifactId>
+                <version>${elasticsearch.version}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>org.springframework.retry</groupId>
                 <artifactId>spring-retry</artifactId>
                 <version>${spring.retry.version}</version>
@@ -138,6 +159,12 @@
                 <groupId>org.springframework.kafka</groupId>
                 <artifactId>spring-kafka</artifactId>
                 <version>${spring.kafka.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.app</groupId>
+                <artifactId>elastic-model</artifactId>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
