@@ -1,6 +1,6 @@
 package com.app.t2k.kafka.to.elastic.kafka.producer.config.service.impl;
 
-import com.app.t2k.kafka.to.elastic.kafka.avro.model.TwitterAvroModel;
+import com.app.t2k.kafka.avro.model.TwitterAvroModel;
 import com.app.t2k.kafka.to.elastic.kafka.producer.config.service.KafkaProducer;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

@@ -1,7 +1,7 @@
 package com.app.t2k.service.listener;
 
+import com.app.t2k.kafka.avro.model.TwitterAvroModel;
 import com.app.t2k.kafka.to.elastic.config.KafkaConfigData;
-import com.app.t2k.kafka.to.elastic.kafka.avro.model.TwitterAvroModel;
 import com.app.t2k.kafka.to.elastic.kafka.producer.config.service.KafkaProducer;
 import com.app.t2k.service.transformer.TwitterStatusToAvroTransformer;
 import lombok.RequiredArgsConstructor;

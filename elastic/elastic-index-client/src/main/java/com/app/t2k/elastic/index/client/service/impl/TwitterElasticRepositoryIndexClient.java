@@ -1,6 +1,6 @@
 package com.app.t2k.elastic.index.client.service.impl;
 
-import com.app.t2k.elastic.index.client.respository.TwitterElasticsearchIndexRepository;
+import com.app.t2k.elastic.index.client.repository.TwitterElasticsearchIndexRepository;
 import com.app.t2k.elastic.index.client.service.ElasticIndexClient;
 import com.app.t2k.elastic.model.index.impl.TwitterIndexModel;
 import lombok.RequiredArgsConstructor;

@@ -4,7 +4,6 @@ import com.app.t2k.kafka.to.elastic.config.ElasticConfigData;
 import lombok.RequiredArgsConstructor;
 import org.apache.http.HttpHost;
 import org.elasticsearch.client.RestClient;
-import org.elasticsearch.client.RestClientBuilder;
 import org.elasticsearch.client.RestHighLevelClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -46,7 +45,7 @@ public class ElasticSearchConfig extends AbstractElasticsearchConfiguration {
     }
 
     @Bean
-    public ElasticsearchOperations elasticsearchTemplate() {
+    public ElasticsearchOperations elasticsearchOperations() {
         return new ElasticsearchRestTemplate(elasticsearchClient());
     }
 }

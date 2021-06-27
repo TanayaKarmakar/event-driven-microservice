@@ -1,9 +1,12 @@
 package com.app.t2k.kafka.to.elastic.consumer.impl;
 
+import com.app.t2k.elastic.index.client.service.ElasticIndexClient;
+import com.app.t2k.elastic.model.index.impl.TwitterIndexModel;
+import com.app.t2k.kafka.avro.model.TwitterAvroModel;
 import com.app.t2k.kafka.to.elastic.config.KafkaConfigData;
 import com.app.t2k.kafka.to.elastic.kafka.admin.config.client.KafkaAdminClient;
-import com.app.t2k.kafka.to.elastic.kafka.avro.model.TwitterAvroModel;
 import com.app.t2k.kafka.to.elastic.consumer.KafkaConsumer;
+import com.app.t2k.kafka.to.elastic.transformer.AvroToElasticModelTransformer;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.context.event.ApplicationStartedEvent;
@@ -29,6 +32,8 @@ public class TwitterKafkaConsumer implements KafkaConsumer<Long, TwitterAvroMode
     private final KafkaListenerEndpointRegistry kafkaListenerEndpointRegistry;
     private final KafkaAdminClient kafkaAdminClient;
     private final KafkaConfigData kafkaConfigData;
+    private final AvroToElasticModelTransformer avroToElasticModelTransformer;
+    private final ElasticIndexClient<TwitterIndexModel> elasticIndexClient;
 
     @EventListener
     public void onAppStarted(ApplicationStartedEvent event) throws Exception {
@@ -51,5 +56,9 @@ public class TwitterKafkaConsumer implements KafkaConsumer<Long, TwitterAvroMode
                 offsets.toString(),
                 Thread.currentThread().getId());
 
+        List<TwitterIndexModel> elasticModels = avroToElasticModelTransformer.getElasticModels(messages);
+        List<String> documentIds =elasticIndexClient.save(elasticModels);
+
+        log.info("Document saved to elastic search with ids: {}", documentIds.toArray());
     }
 }

@@ -167,6 +167,16 @@
                 <version>${project.version}</version>
             </dependency>
             <dependency>
+                <groupId>com.app</groupId>
+                <artifactId>elastic-config</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.app</groupId>
+                <artifactId>elastic-index-client</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
                 <version>${spring.cloud.dependencies.version}</version>
