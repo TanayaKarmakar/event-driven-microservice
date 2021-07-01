@@ -44,6 +44,10 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
+            <groupId>org.apache.avro</groupId>
+            <artifactId>avro</artifactId>
+        </dependency>
+        <dependency>
             <groupId>com.app</groupId>
             <artifactId>elastic-model</artifactId>
         </dependency>
@@ -54,6 +58,10 @@
         <dependency>
             <groupId>com.app</groupId>
             <artifactId>elastic-index-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.confluent</groupId>
+            <artifactId>kafka-avro-serializer</artifactId>
         </dependency>
     </dependencies>
 
