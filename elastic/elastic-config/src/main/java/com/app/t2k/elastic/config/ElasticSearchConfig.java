@@ -22,7 +22,7 @@ import java.util.Objects;
  */
 @Configuration
 @RequiredArgsConstructor
-@EnableElasticsearchRepositories(basePackages = "com.app.t2k.elastic.index.client.repository")
+@EnableElasticsearchRepositories(basePackages = "com.app.t2k.elastic")
 public class ElasticSearchConfig extends AbstractElasticsearchConfiguration {
     private final ElasticConfigData elasticConfigData;
 

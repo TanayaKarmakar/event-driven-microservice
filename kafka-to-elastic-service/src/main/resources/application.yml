@@ -53,3 +53,6 @@ elastic-config:
   connection-timeout-ms: 5000
   socket-timeout-ms: 30000
   is-repository: true
+
+elastic-query-config:
+  text-field: text
